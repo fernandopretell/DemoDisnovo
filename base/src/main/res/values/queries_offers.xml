@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="insert_offer" translatable="false">
+        INSERT OR REPLACE INTO offers
+        (id,coupon_id,type,description,value,starts_on,ends_on)
+        VALUES (?,?,?,?,?,?,?)
+    </string>
+
+    <string name="delete_offers" translatable="false">
+        DELETE FROM offers
+    </string>
+
+    <string name="delete_offer_products" translatable="false">
+        DELETE FROM offer_product
+    </string>
+
+    <string name="delete_offer_by_coupon_id" translatable="false">
+        DELETE FROM offers
+        WHERE coupon_id = ?
+    </string>
+
+    <string name="get_offers" translatable="false">
+        SELECT *
+        FROM offers
+    </string>
+
+    <string name="get_offer" translatable="false">
+        SELECT *
+        FROM offers
+        where id = ?
+    </string>
+
+    <string name="get_offer_by_type" translatable="false">
+        SELECT *
+        FROM offers
+        where type = ?
+    </string>
+
+    <string name="get_offer_by_coupon_id" translatable="false">
+        SELECT *
+        FROM offers
+        where coupon_id = ?
+    </string>
+
+    <string name="delete_offer_products_by_offer_id" translatable="false">
+        DELETE FROM offer_product
+        WHERE offer_id IN ({whereIn})
+    </string>
+
+
+    <string name="insert_offer_product" translatable="false">
+        INSERT OR REPLACE INTO offer_product
+        (offer_id,product_id,product)
+        VALUES (?,?,?)
+    </string>
+
+    <string name="get_products_offer" translatable="false">
+        SELECT *
+        FROM offer_product,offers
+        where offers.id = offer_product.offer_id
+    </string>
+
+
+</resources>

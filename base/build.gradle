@@ -1,0 +1,202 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    packagingOptions {
+        exclude 'META-INF/INDEX.LIST'
+        exclude 'protobuf.meta'
+    }
+
+    /*androidExtensions {
+        experimental = true
+    }*/
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    /*kapt {
+        correctErrorTypes true
+    }*/
+}
+
+dependencies {
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    implementation project(':common')
+    implementation project(':baseui')
+
+   // implementation "org.ocpsoft:prettytime:3.4.0"
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$rootProject.ext.kotlin_version"
+
+    //api "com.limapps:android-pay-common:$rootProject.ext.payCommonVersion"
+
+    // Dagger
+    implementation "com.google.dagger:dagger:$rootProject.ext.daggerVersion"
+    implementation "com.google.dagger:dagger-android-support:$rootProject.ext.daggerAndroidVersion"
+    kapt "com.google.dagger:dagger-compiler:$rootProject.ext.daggerVersion"
+    kapt "com.google.dagger:dagger-android-processor:$rootProject.ext.daggerVersion"
+
+    // RxJava
+    implementation "io.reactivex.rxjava2:rxjava:$rootProject.ext.rxJavaVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$rootProject.ext.rxAndroidVersion"
+    implementation  "com.jakewharton.rxbinding2:rxbinding:2.2.0"
+
+    // Firebase
+    implementation "com.google.firebase:firebase-core:$rootProject.ext.firebaseCoreVersion"
+    implementation "com.google.firebase:firebase-database:$rootProject.ext.firebaseDatabaseVersion"
+    implementation "com.google.firebase:firebase-messaging:$rootProject.ext.firebaseMessagingVersion"
+    implementation "com.google.firebase:firebase-auth:$rootProject.ext.firebaseAuthVersion"
+    implementation "com.google.firebase:firebase-storage:$rootProject.ext.firebaseStorageVersion"
+    implementation "com.google.firebase:firebase-config:$rootProject.ext.firebaseConfigVersion"
+
+    // Support Libraries
+    implementation "androidx.appcompat:appcompat:$rootProject.ext.appCompatVersion"
+    implementation "com.google.android.material:material:$rootProject.ext.supportVersion"
+    implementation "androidx.legacy:legacy-support-v4:$rootProject.ext.legacyVersion"
+    implementation "androidx.cardview:cardview:$rootProject.ext.cardviewVersion"
+    implementation "androidx.recyclerview:recyclerview:$rootProject.ext.recyclerviewVersion"
+    implementation "androidx.core:core-ktx:$rootProject.ext.ktxVersion"
+    implementation "androidx.dynamicanimation:dynamicanimation:$rootProject.ext.dynamicanimation"
+    implementation "androidx.constraintlayout:constraintlayout:$rootProject.ext.constraintLayoutVersion"
+
+    // Facebook
+    implementation("com.facebook.android:facebook-android-sdk:$rootProject.ext.facebookVersion") {
+        exclude module: 'support-v4'
+        exclude module: 'design'
+        exclude module: 'appcompat-v7'
+        exclude module: 'customtabs'
+        exclude module: 'cardview-v7'
+    }
+    implementation("com.facebook.device.yearclass:yearclass:$rootProject.ext.yearClassVersion") {
+        exclude module: 'support-v4'
+        exclude module: 'design'
+        exclude module: 'appcompat-v7'
+        exclude module: 'customtabs'
+        exclude module: 'cardview-v7'
+    }
+
+    // Network
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.ext.retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$rootProject.ext.retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$rootProject.ext.retrofitVersion"
+    implementation "com.squareup.okhttp3:logging-interceptor:$rootProject.ext.okhttpVersion"
+    implementation("com.squareup.retrofit2:converter-simplexml:$rootProject.ext.retrofitVersion") {
+        exclude group: 'xpp3', module: 'xpp3'
+        exclude group: 'stax', module: 'stax-api'
+        exclude group: 'stax', module: 'stax'
+    }
+
+    // Architecture components
+    implementation "androidx.lifecycle:lifecycle-extensions:$rootProject.ext.archVersion"
+    implementation "androidx.lifecycle:lifecycle-runtime:$rootProject.ext.archVersion"
+    implementation "androidx.room:room-runtime:$rootProject.ext.roomVersion"
+    implementation "android.arch.lifecycle:common-java8:$rootProject.ext.archVersion"
+
+    // Multidex
+    implementation "androidx.multidex:multidex:$rootProject.ext.multidexVersion"
+
+    // Glide
+    implementation "com.github.bumptech.glide:glide:$rootProject.ext.glideVersion"
+
+    // Zendesk
+    //implementation "com.zendesk:support:$rootProject.ext.zendeskSdkVersion"
+
+    // Amplitude
+    implementation "com.amplitude:android-sdk:$rootProject.ext.amplitudeSdkVersion"
+
+    // Threetenabp
+    implementation "com.jakewharton.threetenabp:threetenabp:$rootProject.ext.threetenabpVersion"
+    testImplementation("org.threeten:threetenbp:$rootProject.ext.threetenabpOrgVersion") {
+        exclude module: "com.jakewharton.threetenabp:$rootProject.ext.threetenabpVersion"
+    }
+
+    // Maps
+    implementation "com.google.android.gms:play-services-maps:$rootProject.ext.googleMapsVersion"
+    implementation "com.google.maps.android:android-maps-utils:$rootProject.ext.androidMapUtilsVersion"
+
+
+    // AppsFlyer - InstallReferrer
+    implementation "com.appsflyer:af-android-sdk:$rootProject.ext.appsflyerSdkVersion"
+
+    //Braze
+    implementation "com.appboy:android-sdk-ui:$rootProject.ext.brazeVersion"
+
+    // Rakam
+    //implementation "io.rakam:android-sdk:$rootProject.ext.rakamVersion"
+
+    // Branch
+    implementation("io.branch.sdk.android:library:$rootProject.ext.branchSdkVersion") {
+        exclude module: 'answers-shim'
+    }
+
+    // Crashlytics
+    implementation("com.crashlytics.sdk.android:crashlytics:$rootProject.ext.crashlyticsVersion") {
+        transitive = true
+    }
+
+    //Stetho
+    implementation "com.facebook.stetho:stetho-okhttp3:$rootProject.ext.stethoVersion"
+
+    // SiftScience
+    implementation("com.siftscience:sift-android:$rootProject.ext.siftScienceVersion") {
+        exclude module: 'play-services-location'
+    }
+
+    implementation "com.scottyab:secure-preferences-lib:$rootProject.ext.securePreferencesVersion"
+
+    // Test dependencies
+    testImplementation "junit:junit:$rootProject.ext.jUnitVersion"
+    testImplementation "org.jetbrains.kotlin:kotlin-stdlib:$rootProject.ext.kotlin_version"
+    testImplementation "org.jetbrains.kotlin:kotlin-test-junit:$rootProject.ext.kotlin_version"
+    testImplementation "org.mockito:mockito-core:$rootProject.ext.mockitoVersion"
+    testImplementation "org.hamcrest:hamcrest-library:1.3"
+    testImplementation "com.nhaarman:mockito-kotlin-kt1.1:$rootProject.ext.mockitoKotlinVersion"
+
+    implementation("com.airbnb.android:lottie:$rootProject.ext.airbnbLottieVersion") {
+        exclude group: 'com.android.support', module: 'appcompat-v7'
+        exclude group: 'com.android.support', module: 'design'
+        exclude module: 'support-v4'
+        exclude group: 'androidx.appcompat', module: 'appcompat'
+        exclude group: 'com.google.android', module: 'material'
+    }
+
+    //picasso
+    implementation "com.squareup.picasso:picasso:$rootProject.ext.picassoVersion"
+    implementation "com.jakewharton.picasso:picasso2-okhttp3-downloader:$rootProject.ext.picassoDownloaderVersion"
+
+    //GooglePay
+    implementation "com.google.android.gms:play-services-wallet:$rootProject.ext.googlePayVersion"
+
+    //firebase
+    implementation "com.google.firebase:firebase-firestore:$rootProject.ext.firebaseFirestoreVersion"
+
+
+}
+
+repositories {
+    mavenCentral()
+}

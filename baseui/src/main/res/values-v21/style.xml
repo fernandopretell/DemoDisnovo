@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.StatusBar.Transparent" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textViewStyle">@style/AppTextViewStyle</item>
+        <item name="android:editTextStyle">@style/AppEditTextStyle</item>
+    </style>
+
+    <style name="Theme.StatusBar.Transparent.NoTranslucent" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textViewStyle">@style/AppTextViewStyle</item>
+        <item name="android:editTextStyle">@style/AppEditTextStyle</item>
+    </style>
+
+    <style name="RealSimplePrimaryButton" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:fontFamily">@font/default_font</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:colorAccent">@color/color_primary</item>
+        <item name="android:colorButtonNormal">@color/grey_bluey</item>
+    </style>
+
+</resources>

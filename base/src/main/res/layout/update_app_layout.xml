@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/narrow_top_bottom_white_frame_update_app"
+        android:layout_marginLeft="@dimen/narrow_left_right_white_frame_update_app"
+        android:layout_marginRight="@dimen/narrow_left_right_white_frame_update_app"
+        android:layout_marginTop="@dimen/narrow_top_bottom_white_frame_update_app"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_top_items_update_app_view"
+                android:contentDescription="@string/rappi_app_name"
+                android:src="@drawable/download_view_updating_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_top_items_update_app_view"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minLines="1"
+                android:text="@string/copy_header_update_app_one"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="@dimen/font_size_copy_header_update_app" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minLines="1"
+                android:text="@string/copy_header_update_app_two"
+                android:textColor="@color/red_light"
+                android:textSize="@dimen/font_size_copy_header_update_app"
+                android:textStyle="bold"
+                tools:ignore="MissingPrefix" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lines_standard_gray_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/copy_update_app"
+                android:textColor="@color/gray_dark_secondary"
+                android:textSize="@dimen/font_size_copy_update_app" />
+
+            <Button
+                android:id="@+id/update_now"
+                style="@style/PrimaryButtonPlain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom_button_update_app"
+                android:layout_marginLeft="@dimen/margin_button_update_app"
+                android:layout_marginRight="@dimen/margin_button_update_app"
+                android:text="@string/update_now"
+                android:textSize="@dimen/text_size_button_update_app" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

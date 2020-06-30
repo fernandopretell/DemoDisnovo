@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:antialias="true" android:shape="rectangle">
+            <corners android:radius="@dimen/radius_border_button" />
+            <solid android:color="@color/market_dialog.closed_red" />
+        </shape>
+    </item>
+</selector>

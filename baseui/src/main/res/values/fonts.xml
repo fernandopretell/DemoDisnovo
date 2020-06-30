@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="font_roboto_bold" translatable="false">fonts/ProximaNova-Bold.otf</string>
+    <string name="font_proxima_nova_regular" translatable="false">fonts/ProximaNovaA-Regular.otf</string>
+    <string name="font_digital" translatable="false">fonts/digital_mono_7.ttf</string>
+    <string name="font_bebas_bold" translatable="false">fonts/BebasNeue-Bold.ttf</string>
+</resources>

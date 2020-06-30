@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey_charcoal">#43484D</color>
+    <color name="gray_cool">#9aabb5</color>
+    <color name="new_prime_color">#771773</color>
+    <color name="new_secondary_prime_color">#e7354d</color>
+
+
+    <color name="color_text">#272A3F</color>
+
+
+</resources>

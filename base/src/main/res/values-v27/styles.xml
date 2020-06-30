@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="TextViewArrow" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/bg_green_focus_edittext</item>
+        <item name="android:drawableEnd">@drawable/icon_arrowdown_grey</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">@dimen/spacing_xxhuge</item>
+        <item name="android:padding">@dimen/spacing_medium</item>
+    </style>
+
+</resources>

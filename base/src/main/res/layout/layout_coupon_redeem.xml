@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:id="@+id/view_circle_pink"
+        android:layout_width="@dimen/size_coupon_circle_big"
+        android:layout_height="@dimen/size_coupon_circle_big"
+        android:layout_marginLeft="@dimen/negative_coupon_circle_medium"
+        android:layout_marginStart="@dimen/negative_coupon_circle_medium"
+        android:layout_marginTop="@dimen/negative_coupon_circle_small"
+        android:background="@drawable/circle_green"
+        android:backgroundTint="@color/pink_express_home" />
+
+    <View
+        android:id="@+id/view_circle_blue"
+        android:layout_width="@dimen/size_coupon_circle_medium"
+        android:layout_height="@dimen/size_coupon_circle_medium"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/negative_coupon_circle_medium"
+        android:background="@drawable/circle_green"
+        android:backgroundTint="@color/sub_corridor.blue" />
+
+    <View
+        android:id="@+id/view_circle_green"
+        android:layout_width="@dimen/size_coupon_circle_small"
+        android:layout_height="@dimen/size_coupon_circle_small"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/negative_spacing_xxxxlarge"
+        android:layout_marginRight="@dimen/negative_spacing_xxxxlarge"
+        android:layout_marginTop="@dimen/negative_spacing_large"
+        android:background="@drawable/circle_green"
+        android:backgroundTint="@color/green_market_home" />
+
+    <TextView
+        android:id="@+id/textView_congratulations_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_circle_green"
+        android:layout_centerHorizontal="true"
+        android:text="@string/coupon.congratulations"
+        android:textColor="@color/color_primary"
+        android:textSize="@dimen/font_xxxlarge" />
+
+    <TextView
+        android:id="@+id/textView_congratulations_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_congratulations_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:gravity="center"
+        android:layout_marginEnd="@dimen/spacing_xxlarge"
+        android:layout_marginLeft="@dimen/spacing_xxlarge"
+        android:layout_marginRight="@dimen/spacing_xxlarge"
+        android:layout_marginStart="@dimen/spacing_xxlarge"
+        android:text="@string/coupon.message_redemption_successfully"
+        android:textColor="@color/text_color_primary" />
+
+    <Button
+        android:id="@+id/button_continue"
+        style="@style/PrimaryButtonPlain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_rappi_button_small"
+        android:layout_below="@+id/textView_congratulations_message"
+        android:layout_marginEnd="@dimen/spacing_xxlarge"
+        android:layout_marginLeft="@dimen/spacing_xxlarge"
+        android:layout_marginRight="@dimen/spacing_xxlarge"
+        android:layout_marginStart="@dimen/spacing_xxlarge"
+        android:layout_marginTop="@dimen/spacing_xxxlarge"
+        android:text="@string/coupon.message_redemption_successful_action"
+        android:textSize="@dimen/font_normal" />
+
+</RelativeLayout>
+

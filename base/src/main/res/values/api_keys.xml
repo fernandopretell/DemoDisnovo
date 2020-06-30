@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="facebook_app_id" translatable="false">346132112241554</string>
+    <string name="account_kit_client_token" translatable="false">5fd310d117567e06094d8c0fb88f9968</string>
+
+    <string name="gcm_sender_id" translatable="false">716470089881</string>
+    <string name="apps_flyer_token" translatable="false">drvpjPMGqupkKe5jZ4uwvP</string>
+    <string name="branch_key" translatable="false">key_live_coc6gYv70f6WxumqWrSWkdigDFhxvfwy</string>
+
+    <string name="api_key_amplitude" translatable="false">101be7b7fdda892d329579012e8dd69a</string>
+    <string name="api_key_amplitude_dev" translatable="false">f754f0caafc5e6ccf74df0675187d9e5</string>
+
+    <string name="sift_account_id_colombia" translatable="false">5a7124404f0cfbf0e4a0cab2</string>
+    <string name="sift_account_id_brazil" translatable="false">5a708a1e4f0c2316fef62d45</string>
+    <string name="sift_account_id_mexico" translatable="false">5a74cd234f0cb0491f0511a0</string>
+    <string name="sift_account_id_argentina" translatable="false">5a7cee444f0c20e3f3f5354c</string>
+    <string name="sift_account_id_chile" translatable="false">5b180b374f0cafd3dfe5adf9</string>
+    <string name="sift_account_id_uruguay" translatable="false">5b3f81614f0c2b9ed542ca96</string>
+    <string name="sift_account_id_peru" translatable="false">5bb67eb04f0c341e511a1de9</string>
+    <string name="sift_beacon_key_colombia" translatable="false">b9ca8239ae</string>
+    <string name="sift_beacon_key_brazil" translatable="false">f11e52198d</string>
+    <string name="sift_beacon_key_mexico" translatable="false">98a5af1cad</string>
+    <string name="sift_beacon_key_argentina" translatable="false">14b9209dbd</string>
+    <string name="sift_beacon_key_chile" translatable="false">5c44b9ce9f</string>
+    <string name="sift_beacon_key_uruguay" translatable="false">ccf80fc12d</string>
+    <string name="sift_beacon_key_peru" translatable="false">fe307ae8a4</string>
+
+    <!--Rakam-->
+    <string name="rakam_url_project" translatable="false">https://rakam-rappi-webapp-882761509.us-west-2.aws.getrakam.com</string>
+    <string name="rakam_write_key" translatable="false">jekcr7gep9dudp34jfi8jhg7n99l5ebhm53nrklk6ohusduo83vucja8e6kafl1i</string>
+
+    <string name="fabric_api_key" translatable="false">08a061fb46ded2bca4ef6468ba46fe6059635ddf</string>
+    <string name="gcm_server_api_key" translatable="false">AIzaSyA2MjF7LEXCqU6gPnM0CPHHqJZuLEqhUmw</string>
+
+
+    <!--These keys can be replaced or overwritten from the app module-->
+
+    <string name="premium_api_key" translatable="false">AIzaSyDMMaUOU3vZ4HOGujewYc3cmAT1eE475dw</string>
+    <string name="api_key" translatable="false">AIzaSyCjSzf0PzFgmlFDcGyCKjruDCsI1jm1yVo</string>
+
+    <!--Spreedly-->
+    <string name="spreedly_env_key" translatable="false">6vgyQXzDELv3IKo9sI94BLyur2p</string>
+
+    <!--TrustDefender Visa-->
+    <string name="organization_id" translatable="false">1snn5n9w</string>
+
+    <!-- Jumio-->
+    <string name="jumio_api_token" translatable="false">de71147d-d8cd-4132-8187-f55281163706</string>
+    <string name="jumio_api_secret" translatable="false">a1SvMvoOLpAhj4jZAKyF5wdhTHmDMGt9</string>
+
+    <!--Split SDK-->
+    <string name="split_api_key" translatable="false">ockek0a55ds3rp44q299qql6ojlnee33j1js</string>
+
+    <string name="google_login_web_client_id" translatable="false">190924074487-5cemtvdus9qoms9s9q9bafc67786r62b.apps.googleusercontent.com</string>
+    <!-- Singular-->
+    <string name="singular_api_key" translatable="false">rappi_6cc5f438</string>
+    <string name="singular_api_secret" translatable="false">e0d221670e563146ac31f14be4698266</string>
+
+    <!--Uxcam-->
+    <string name="api_key_uxcam" translatable="false">upluutaq7m89zlt</string>
+    <string name="api_key_uxcam_dev" translatable="false">wc5nzz86toktl2e</string>
+
+    <!-- Dyscan SDK -->
+    <string name="dyscan_api_key_name" translatable="false">api-key</string>
+    <string name="dyscan_api_key_value" translatable="false">1CX4OkKKB78EBQDbhk4!RGAQpcSgZB2Q6PLK1lltijZM1tP$FJangC5xGOFw</string>
+    <string name="dyscan_language_name" translatable="false">language</string>
+    <string name="dyscan_language_value" translatable="false">es</string>
+
+    <string name="whatsapp_key" translatable="false">ak_DIs3L9DnOg0i-QaTWF3SjiexF3xUU8s4qg</string>
+
+    <string name="dynamic_yield_api_key" translatable="false">5d352722c7e5c2e4a94c8685bbfabded0ec8439294895c7770bc4a1f72babcf9</string>
+
+</resources>

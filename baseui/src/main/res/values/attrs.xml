@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="trimLength" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="rappi_toolbar">
+        <attr name="toolbar_text" format="string" />
+        <attr name="show_back" format="boolean" />
+        <attr name="show_elevation" format="boolean" />
+        <attr name="toolbar_text_color" format="color" />
+        <attr name="background_color" format="color" />
+        <attr name="back_color" format="color" />
+        <attr name="title_bold" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="rounded_imageView">
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="LoaderView">
+        <attr name="width_weight" format="float" />
+        <attr name="height_weight" format="float" />
+        <attr name="use_gradient" format="boolean" />
+        <attr name="loader_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="LoaderFrameLayout">
+        <attr name="shimmer_color" format="color|reference" />
+        <attr name="shimmer_animation_duration" format="integer|reference" />
+        <attr name="shimmer_auto_start" format="boolean|reference" />
+        <attr name="shimmer_angle" format="integer|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LoaderItemView">
+        <attr name="layout" format="reference" />
+    </declare-styleable>
+
+    <!-- Default style -->
+    <declare-styleable name="TooltipLayout">
+        <attr format="dimension" name="tooltip_padding"/>
+        <attr format="color" name="tooltip_strokeColor"/>
+        <attr format="color" name="tooltip_backgroundColor"/>
+        <attr format="dimension" name="tooltip_strokeWeight"/>
+        <attr format="dimension" name="tooltip_cornerRadius"/>
+        <attr format="float" name="tooltip_arrowRatio"/>
+        <attr name="android:textAppearance"/>
+        <attr name="android:gravity"/>
+        <attr format="reference" name="tooltip_overlayStyle"/>
+        <attr format="string" name="tooltip_font"/>
+
+        <!-- Elevation of the tooltip. Works only on non custom views -->
+        <attr format="dimension" name="tooltip_elevation"/>
+    </declare-styleable>
+
+    <declare-styleable name="TooltipOverlay">
+        <attr name="android:color"/>
+        <attr name="android:alpha"/>
+        <attr format="integer" name="tooltip_repeatCount"/>
+        <attr format="integer" name="tooltip_duration"/>
+        <attr name="android:layout_margin"/>
+    </declare-styleable>
+
+    <attr format="reference" name="tooltip_defaultStyle"/>
+    
+    <declare-styleable name="ZoomableViewStyle">
+        <attr name="isFitStyle" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressButtonView">
+        <attr name="android:textColor" />
+        <attr name="title" format="string" />
+        <attr name="title_size" format="dimension" />
+        <attr name="title_font" format="integer" />
+        <attr name="progress_style" format="string" />
+        <attr name="show_progress" format="boolean" />
+        <attr name="button_image" format="integer" />
+        <attr name="length" format="integer" />
+        <attr name="width" format="dimension" />
+        <attr name="height" format="dimension" />
+        <attr name="margin" format="dimension" />
+        <attr name="margin_bottom" format="dimension" />
+        <attr name="margin_right" format="dimension" />
+        <attr name="margin_left" format="dimension" />
+        <attr name="margin_top" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="13dp"
+    android:height="13dp"
+    android:viewportWidth="18"
+    android:viewportHeight="18">
+
+    <path
+        android:fillType="evenOdd"
+        android:strokeColor="#23C48B"
+        android:strokeWidth="1.125"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M9.25,5.75 L14.875,11.375 L9.25,17" />
+
+    <!--
+        DO NOT USE THIS ASSET as it is not properly centered.
+        Use @drawable/arrow_right_green_centered instead
+
+        Padding of this view:
+        left:   9.25dp
+        right:  3.125dp
+        top:    5.75dp
+        bottom: 6.625dp
+    -->
+
+</vector>

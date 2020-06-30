@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ejemplo: "5 de janeiro" -->
+    <string name="date_format_month_text">d \'de\' MMMM</string>
+	<!--ejemplo: "5 de janeiro de 2018" -->
+	<string name="date_format_month_year_text">d \'de\' MMMM \'de\' yyyy</string>
+	<!--ejemplo: "Dia 5, quinta-feira, às 15:05" -->
+	<string name="date_format_day_hour_text">\'Dia\' d \',\' EEEE  \', às\' H:mm</string>
+</resources>

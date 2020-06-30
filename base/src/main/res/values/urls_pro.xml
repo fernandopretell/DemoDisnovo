@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="url_assets" translatable="false">uploads/</string>
+
+    <string name="url_google_location" translatable="false">https://maps.googleapis.com/maps/api/place/nearbysearch/json?radius=50000</string>
+
+    <string name="url_share_landing_page" translatable="false">http://www.rappi.com</string>
+
+    <string name="url_credit_card_rappi" translatable="false">https://www.digital.colpatria.com/tarjetas-de-credito/rappi</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/shape"
+        android:left="@dimen/negative_spacing_small"
+        android:right="@dimen/negative_spacing_small"
+        android:top="@dimen/negative_spacing_small">
+
+        <shape android:shape="rectangle">
+            <solid android:color="@color/transparent" />
+
+            <stroke
+                android:width="@dimen/spacing_xmicro"
+                android:color="@color/yellow" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_loading"
+        android:layout_width="@dimen/size_progress_bar"
+        android:layout_height="@dimen/size_progress_bar"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <io.supercharge.shimmerlayout.ShimmerLayout
+        android:id="@+id/custom_loader_rappibox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:shimmer_auto_start="true"
+        app:shimmer_angle="1"
+        app:shimmer_color="@color/web_view_shimmer">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="0.5dp"
+                android:background="@color/grey_loader_dark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="0.5dp"
+                android:background="@color/grey_loader_dark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="0.5dp"
+                android:background="@color/grey_loader_dark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="0.5dp"
+                android:background="@color/grey_loader_dark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="0.5dp"
+                android:background="@color/grey_loader_dark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="0.5dp"
+                android:background="@color/grey_loader_dark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="0.5dp"
+                android:background="@color/grey_loader_dark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="0.5dp"
+                android:background="@color/grey_loader_dark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:background="@color/grey_loader_dark" />
+
+        </LinearLayout>
+    </io.supercharge.shimmerlayout.ShimmerLayout>
+
+</FrameLayout>

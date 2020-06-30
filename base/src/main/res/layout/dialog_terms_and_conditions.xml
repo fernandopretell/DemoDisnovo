@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white_soft_rounded"
+    android:padding="@dimen/spacing_xlarge">
+
+    <Button
+        android:id="@+id/button_dismiss"
+        android:layout_width="@dimen/button_close_height"
+        android:layout_height="@dimen/button_close_width"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="top"
+        android:background="@drawable/ring_close"
+        android:elevation="@dimen/card_elevation_medium" />
+
+    <ImageView
+        android:id="@+id/imageView_confetti"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_image_promise_terms"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/ic_confetti" />
+
+    <TextView
+        android:id="@+id/textView_eta"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_minutes_promise_terms"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:includeFontPadding="false"
+        android:textColor="@color/black_text"
+        android:textSize="@dimen/text_size_minutes_promise_terms"
+        android:textStyle="bold"
+        tools:ignore="MissingPrefix"
+        tools:text="35" />
+
+    <TextView
+        android:id="@+id/textview_minutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_toEndOf="@+id/textView_eta"
+        android:text="@string/base.terms_and_conditions_min"
+        android:textColor="@color/black_text"
+        android:textSize="@dimen/font_xlarge"
+        android:textStyle="bold"
+        tools:ignore="MissingPrefix"
+        tools:text="min" />
+
+    <TextView
+        android:id="@+id/textView_promise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_eta"
+        android:layout_alignStart="@+id/textView_eta"
+        android:text="@string/terms.or_free"
+        android:textAllCaps="true"
+        android:textColor="@color/black_text"
+        android:textSize="@dimen/font_xxlarge"
+        android:textStyle="bold"
+        tools:ignore="MissingPrefix"
+        tools:text="OR FREE" />
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_confetti"
+        android:layout_alignParentStart="true"
+        android:gravity="start"
+        android:text="@string/copy.terms_and_conditions"
+        android:textColor="@color/black_text"
+        android:textSize="@dimen/font_xlarge"
+        android:textStyle="bold"
+        tools:ignore="MissingPrefix" />
+
+    <TextView
+        android:id="@+id/textView_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_title"
+        android:layout_marginTop="@dimen/spacing_xxlarge"
+        android:autoLink="web"
+        android:fadeScrollbars="true"
+        android:fadingEdge="vertical"
+        android:linksClickable="true"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        android:textColor="@color/text_color_secondary" />
+
+    <Button
+        android:id="@+id/button_ok"
+        style="@style/PrimaryButtonPlain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button_dismiss"
+        android:layout_alignParentBottom="true"
+        android:text="@string/terms_and_conditions.understood"
+        android:textSize="@dimen/font_large" />
+</RelativeLayout>

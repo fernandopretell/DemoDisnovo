@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:ellipsize="marquee"
+    android:gravity="center_horizontal"
+    android:paddingStart="@dimen/margin_view_start"
+    android:singleLine="true"
+    android:textColor="@color/grey_charcoil"
+    android:textSize="@dimen/font_xnormal"
+    android:fontFamily="@font/tt_norms_medium"
+    tools:text="Hola"
+    android:padding="@dimen/spacing_medium"/>

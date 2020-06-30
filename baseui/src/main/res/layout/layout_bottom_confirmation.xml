@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+    <LinearLayout
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        tools:visibility="visible">
+
+        <ImageView
+            android:id="@+id/imageView_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:paddingTop="@dimen/spacing_large" />
+
+        <TextView
+            android:id="@+id/rappi_confirm_textView_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_buttons_intro"
+            android:textStyle="bold"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:id="@+id/rappi_confirm_textView_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fields_vertical_spacing"
+            android:background="@drawable/bg_round_yellow"
+            android:gravity="center"
+            android:paddingLeft="@dimen/price_tag_offer_left"
+            android:paddingRight="@dimen/price_tag_offer_left"
+            android:textColor="@color/red"
+            android:textSize="@dimen/font_small" />
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_medium"
+            android:layout_marginLeft="@dimen/spacing_medium"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:layout_marginEnd="@dimen/spacing_medium"
+            android:layout_marginRight="@dimen/spacing_medium"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+
+        <RelativeLayout
+            android:id="@+id/layout_confirm_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_indicator_product_detail">
+
+            <View
+                android:id="@+id/view_center_buttons"
+                android:layout_width="@dimen/spacing_xmicro"
+                android:layout_height="@dimen/spacing_xmicro"
+                android:layout_centerHorizontal="true" />
+
+
+            <Button
+                android:id="@+id/button_alert_option_two"
+                style="@style/RedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginLeft="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_small"
+                android:layout_marginEnd="@dimen/spacing_small"
+                android:layout_marginRight="@dimen/spacing_small"
+                android:layout_marginBottom="@dimen/spacing_small"
+                android:layout_toStartOf="@+id/view_center_buttons"
+                android:layout_toLeftOf="@+id/view_center_buttons"
+                android:contentDescription="@string/content_description_no" />
+
+            <Button
+                android:id="@+id/button_alert_option_one"
+                style="@style/PrimaryButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:layout_marginLeft="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/spacing_small"
+                android:layout_marginEnd="@dimen/spacing_medium"
+                android:layout_marginRight="@dimen/spacing_medium"
+                android:layout_marginBottom="@dimen/spacing_small"
+                android:layout_toEndOf="@+id/view_center_buttons"
+                android:layout_toRightOf="@+id/view_center_buttons"
+                android:contentDescription="@string/content_description_yes" />
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textView_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_rappi_button_normal"
+            android:layout_marginLeft="@dimen/spacing_xlarge"
+            android:layout_marginRight="@dimen/spacing_xlarge"
+            android:gravity="center"
+            android:text="@string/baseui.cancel"
+            android:textColor="@color/text_color_primary"
+            android:textSize="@dimen/font_large"
+            android:textStyle="bold"
+            tools:ignore="MissingPrefix" />
+
+    </LinearLayout>
+
+</RelativeLayout>

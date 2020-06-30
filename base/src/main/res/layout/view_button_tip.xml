@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.limapps.base.views.ButtonTip" />
+    </data>
+
+    <merge
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:background="@{ viewModel.isTipSelected ? @drawable/border_round_big_green_blue : @drawable/border_round_big_gray }"
+            android:gravity="center"
+            android:maxLines="1"
+            android:minWidth="@dimen/width_tip"
+            android:paddingStart="@dimen/spacing_medium"
+            android:paddingTop="@dimen/spacing_small"
+            android:paddingEnd="@dimen/spacing_medium"
+            android:paddingBottom="@dimen/spacing_small"
+            android:text="@{ viewModel.tipValue }"
+            tools:background="@drawable/border_round_big_green_blue"
+            tools:text="@string/copy.tip_example" />
+
+    </merge>
+
+</layout>

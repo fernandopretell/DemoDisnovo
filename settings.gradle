@@ -1,0 +1,2 @@
+rootProject.name='DemoDisnovo'
+include ':app', ':base', ':common', ':baseui'

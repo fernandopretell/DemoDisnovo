@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="default_cities" translatable="false">
+         [
+            {
+                \"id\": 14,
+                \"city\": \"Sao Paulo\",
+                \"country_id\": 5,
+                \"lat\": \"-23.585347\",
+                \"lng\": \"-46.670899\",
+                \"description\": \"Insira seu endereço\",
+                \"flag\": \"http://v2.grability.rappi.com/assets/img/flags/br.png\",
+                \"code_iso_2\": \"BR\"
+            },
+            {
+                \"id\": 13,
+                \"city\": \"Ciudad de México\",
+                \"country_id\": 3,
+                \"lat\": \"19.413533\",
+                \"lng\": \"-99.165072\",
+                \"description\": \"Ingresa tu dirección \",
+                \"flag\": \"http://v2.grability.rappi.com/assets/img/flags/mx.png\",
+                \"code_iso_2\": \"MX\"
+            },
+            {
+                \"id\": 11,
+                \"city\": \"Guadalajara\",
+                \"country_id\": 3,
+                \"lat\": \"20.692261\",
+                \"lng\": \"-103.383331\",
+                \"description\": \"Ingresa tu dirección \",
+                \"flag\": \"http://v2.grability.rappi.com/assets/img/flags/mx.png\",
+                \"code_iso_2\": \"MX\"
+            },
+            {
+                \"id\": 10,
+                \"city\": \"Monterrey\",
+                \"country_id\": 3,
+                \"lat\": \"25.645869\",
+                \"lng\": \"-100.345451\",
+                \"description\": \"Ingresa tu dirección \",
+                \"flag\": \"http://v2.grability.rappi.com/assets/img/flags/mx.png\",
+                \"code_iso_2\": \"MX\"
+            },
+            {
+                \"id\": 2,
+                \"city\": \"Barranquilla\",
+                \"country_id\": 1,
+                \"lat\": \"11.004680\",
+                \"lng\": \"-74.807540\",
+                \"description\": \"Ingresa tu dirección \",
+                \"flag\": \"http://v2.grability.rappi.com/assets/img/flags/co.png\",
+                \"code_iso_2\": \"CO\"
+            },
+            {
+                \"id\": 1,
+                \"city\": \"Bogotá\",
+                \"country_id\": 1,
+                \"lat\": \"4.676777\",
+                \"lng\": \"-74.056748\",
+                \"description\": \"Ingresa tu dirección \",
+                \"flag\": \"http://v2.grability.rappi.com/assets/img/flags/co.png\",
+                \"code_iso_2\": \"CO\"
+            },
+            {
+                \"id\": 12,
+                \"city\": \"Bucaramanga\",
+                \"country_id\": 1,
+                \"lat\": \"7.113380\",
+                \"lng\": \"-73.107550\",
+                \"description\": \"Ingresa tu dirección \",
+                \"flag\": \"http://v2.grability.rappi.com/assets/img/flags/co.png\",
+                \"code_iso_2\": \"CO\"
+            },
+            {
+                \"id\": 6,
+                \"city\": \"Cali\",
+                \"country_id\": 1,
+                \"lat\": \"3.457696\",
+                \"lng\": \"-76.535510\",
+                \"description\": \"Ingresa tu dirección \",
+                \"flag\": \"http://v2.grability.rappi.com/assets/img/flags/co.png\",
+                \"code_iso_2\": \"CO\"
+            },
+            {
+                \"id\": 8,
+                \"city\": \"Cartagena \",
+                \"country_id\": 1,
+                \"lat\": \"10.393236\",
+                \"lng\": \"-75.549189\",
+                \"description\": \"Ingresa tu dirección \",
+                \"flag\": \"http://v2.grability.rappi.com/assets/img/flags/co.png\",
+                \"code_iso_2\": \"CO\"
+            },
+            {
+                \"id\": 5,
+                \"city\": \"Medellín\",
+                \"country_id\": 1,
+                \"lat\": \"6.208165\",
+                \"lng\": \"-75.569471\",
+                \"description\": \"Ingresa tu dirección \",
+                \"flag\": \"http://v2.grability.rappi.com/assets/img/flags/co.png\",
+                \"code_iso_2\": \"CO\"
+            }
+        ]
+    </string>
+
+</resources>

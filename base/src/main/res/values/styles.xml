@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_sheet_dialog_fragment</item>
+    </style>
+
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog" />
+
+    <style name="TextViewArrow" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/bg_green_focus_edittext</item>
+        <item name="android:drawableEnd">@drawable/icon_arrowdown_grey</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">@dimen/spacing_xxhuge</item>
+        <item name="android:padding">@dimen/spacing_medium</item>
+    </style>
+
+    <style name="Animation.WindowSlideUpDown" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="Animation.WindowSlideDown" parent="@android:style/Animation.Activity">
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="AnimationExit">
+        <item name="android:windowAnimationStyle">@style/Animation.WindowSlideDown</item>
+    </style>
+
+    <style name="FullScreenDialogTheme">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowAnimationStyle">@style/Animation.WindowSlideUpDown</item>
+    </style>
+
+    <style name="CheckBox" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/primary_green</item>
+        <item name="android:textColorSecondary">@color/primary_green</item>
+    </style>
+
+
+
+    <!-- Nuevos styles -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="android:textColor">@color/color_text</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+    </style>
+
+    <style name="AppTheme.Toolbar.Title" parent="AppTheme">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

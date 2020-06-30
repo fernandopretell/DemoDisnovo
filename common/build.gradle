@@ -1,0 +1,49 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.6"
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+}
+
+
+dependencies {
+
+    api "androidx.appcompat:appcompat:$rootProject.ext.appCompatVersion"
+    api "com.google.android.material:material:$rootProject.ext.supportVersion"
+    api "androidx.legacy:legacy-support-v4:$rootProject.ext.legacyVersion"
+    api "androidx.dynamicanimation:dynamicanimation:$rootProject.ext.dynamicanimation"
+    api "androidx.core:core-ktx:$rootProject.ext.ktxVersion"
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$rootProject.ext.kotlin_version"
+
+    // RxJava
+    implementation "io.reactivex.rxjava2:rxjava:$rootProject.ext.rxJavaVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$rootProject.ext.rxAndroidVersion"
+
+    // Gson
+    implementation "com.google.code.gson:gson:$rootProject.ext.gsonVersion"
+
+}

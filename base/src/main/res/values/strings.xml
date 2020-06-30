@@ -1,0 +1,1724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="copy.free">Gratis</string>
+    <string name="copy_share_new">Compartir ></string>
+    <string name="copy_see_more">Ver más\nEntradas</string>
+    <string name="copy_select">Seleccionar</string>
+
+    <string name="register_layout_header">REGISTRO</string>
+    <string name="register_complete_layout_account_layout_header">COMPLETA TU CUENTA</string>
+    <string name="copy.full_name">Nombre y apellido</string>
+    <string name="register_name_hint">Nombre</string>
+    <string name="register_last_name_hint">Apellido</string>
+    <string name="hint.name">Tu nombre</string>
+    <string name="hint.email">Tu E-mail</string>
+    <string name="copy.create_password">Crear contraseña</string>
+    <string name="register_address_default">Ingresa tu dirección</string>
+    <string name="register_address_hint">Dirección</string>
+    <string name="register_phone_hint">Teléfono</string>
+    <string name="register_finalize_account_copy">¿Qué nos recomiendas hacer\nen caso que NO tengamos disponible\nalgún producto que hayas arrojado\na la canasta?</string>
+    <string name="register_finalize_not_to_call_copy">No me llamen, prefiero que\nenvíen el pedido sin incluir\nese producto.</string>
+    <string name="register_finalize_call_copy">Prefiero que me llamen\npara elegir un substituto</string>
+    <string name="register_choose_gender">Selecciona tu género:</string>
+    <string name="register_gender_woman_copy">Mujer</string>
+    <string name="register_gender_man_copy">Hombre</string>
+    <string name="register_card_yes">Sí</string>
+    <string name="register_card_no">No</string>
+    <string name="copy.charge_attention_time">Se ha generado un cambio en el cargo del pedido</string>
+    <string name="copy_forgot_password1">Olvidé</string>
+    <string name="copy_forgot_password2">mi contraseña</string>
+    <string name="login_generate_new_password_button_copy">GENERAR CONTRASEÑA</string>
+    <string name="login_forgot_password_copy">Olvidé mi contraseña</string>
+    <string name="login.forgot_password_error">E-mail no registrado</string>
+    <string name="sending_email_for_password_recovery">Estamos procesando tu solicitud…</string>
+    <string name="account_email_hint">E-mail</string>
+    <string name="account_birthday_hint">Fecha de nacimiento</string>
+    <string name="copy.password">Contraseña</string>
+    <string name="open_basket_copy_total_text">Total</string>
+    <string name="open_basket_copy_subtotal_text">Subtotal</string>
+    <string name="message_confirmation_empty_basket">¿Estás seguro que deseas eliminar\n todos los productos de la canasta?</string>
+    <string name="button_yes">Sí</string>
+    <string name="button_no">No</string>
+    <string name="send_bill">ENVIAR FACTURA</string>
+
+    <string name="hint_address_autocomplete">Ingresa tu dirección</string>
+    <string name="hint.address">Ej: Carrera 19 # 90 – 25</string>
+    <string name="copy.additional_information">Instrucciones adicionales</string>
+    <string name="copy.no_tag">Sin tag</string>
+    <string name="lists_header_text">Mis listas y pedidos</string>
+    <string name="title_checkout">Completar pedido</string>
+    <string name="wait_moment_settings_rappi">Estamos configurando\ntu tienda Rappi</string>
+    <string name="my_lists_title">Mis listas</string>
+    <string name="copy.order_history">Historial de pedidos</string>
+    <string name="order_history.last_order">Tu último pedido</string>
+    <string name="my_lists_sponsored_title">Listas sugeridas</string>
+    <string name="lists_my_lists_tablet">MIS LISTAS</string>
+    <string name="lists_communitary_lists_tablet">DE LA COMUNIDAD</string>
+    <string name="schedule_sub_header_copy">Recuérdame comprar\nesta lista todos los:</string>
+    <string name="schedule_you_are_copy">Estás en la lista:</string>
+    <string name="schedule_each_month">DE CADA MES</string>
+    <string name="title_activity_center">Centro de Actividades</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="register_forgot_password"><u>¿Olvidaste tu usuario o contraseña?</u></string>
+    <string name="empty_email">El campo de E-mail no puede estar vacío</string>
+    <string name="error.facebook_email">Facebook no nos dio acceso a tu E-mail. Por favor ingrésala manualmente</string>
+    <string name="error.terms_conditions">Debes aceptar los términos y condiciones para continuar</string>
+    <string name="invalid_email">Formato inválido de E-mail</string>
+    <string name="email_already_in_use">Este E-mail ya está siendo usado</string>
+    <string name="email_not_registred">No encontramos registrado el correo electronico:</string>
+    <string name="hint_search_bar">Busca tu producto</string>
+    <string name="title_related">Estos productos serían</string>
+    <string name="sub_title_related">un buen acompañamiento</string>
+    <string name="error.list_without_name">Por favor dale un nombre a la lista</string>
+    <string name="account_verification_message_email">Hemos enviado un código de 6 digitos al correo</string>
+
+    <string name="need_network">No estás conectado a Internet. Por favor revisa tu conexión y vuelve a intentar.</string>
+
+    <string name="example_search"> Leche, gaseosa, cereal, shampoo, detergente.</string>
+
+    <string name="rappi_wait_moment">Danos un momento</string>
+    <string name="price_unite_n">%1$sUª \n -%2$s %%</string>
+    <string name="verify_internet_no_connection">Verifica tu conexión a internet.</string>
+    <string name="type_your_account">Ingresa tu usuario o E-mail</string>
+    <string name="empty_password">La contraseña no puede estar vacía</string>
+    <string name="invalid_password">Contraseña inválida</string>
+    <string name="send_email_reset">Te enviaremos a tu E-mail una nueva contraseña</string>
+    <string name="user_email_hint">Usuario/E-mail</string>
+    <string name="field_invalid">¡Campos inválidos!</string>
+    <string name="available">Producto agotado</string>
+    <string name="products_unavailable">Productos agotados</string>
+    <string name="list_products.unavailable">Los productos: %1$s no están disponibles en este momento</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="copy.call">Llamar</string>
+    <string name="copy.yes_i_want">Sí quiero</string>
+    <string name="have_more_products">¡Debes tener productos en tu canasta!</string>
+    <string name="confirm_your_password_title">Por tu seguridad confirma tu contraseña</string>
+    <string name="change_user">Cambiar de usuario</string>
+    <string name="change_password"><u>Cambiar contraseña</u></string>
+    <string name="change_address">Cambiar dirección</string>
+    <string name="recovery_password">¡Recuperar contraseña!</string>
+    <string name="user_or_password_invalid">¡Usuario o contraseña inválidos!</string>
+    <string name="max">Máx</string>
+
+    <string name="product_to_delete">%1$s no está disponible.  Será retirado de tu cesta.</string>
+    <string name="product_to_delete_max">Lo sentimos, solo tenemos %1$s unds. disponible de %2$s.</string>
+    <string name="save_without_save">Calculando tu ahorro</string>
+    <string name="code_bogota">(031)</string>
+    <string name="code_barranquilla">(037)</string>
+    <string name="card_invalid">Número de tarjeta plata es requerida</string>
+
+    <!-- ListActivity -->
+    <string name="item_list_hours_ago">HACE</string>
+    <string name="item_list_hours">HORAS</string>
+    <string name="item_list_items">Ítems: </string>
+    <string name="item_list_total">Total: </string>
+    <string name="show_list">VER LISTA</string>
+    <string name="copy_create_list">IR A LA CANASTA</string>
+
+    <!-- Pharmaceutic View -->
+
+    <!-- Update App View -->
+    <plurals name="pending_order">
+        <item quantity="one">Pedido en curso</item>
+        <item quantity="other">Pedidos en curso</item>
+    </plurals>
+    <string name="add_comment_basket">Agrega un comentario (opcional)…</string>
+    <string name="empty_basket_text">Vaciar canasta</string>
+    <string name="copy_basket_category_default">Otros</string>
+    <string name="maker_order">Ir a pagar</string>
+    <string name="address_to_delivery">Dirección de entrega</string>
+    <string name="address_to_pickup">Recoger en</string>
+    <string name="copy.save_as_list">Guardar como lista</string>
+    <string name="save_list_like">Guardar lista como:</string>
+    <string name="copy.save">Guardar</string>
+    <string name="delete">ELIMINAR</string>
+
+    <!-- Map Activity -->
+    <string name="map_where_to_text">¿A dónde quieres que</string>
+    <string name="map_address_delivery_order_text">llevemos tu pedido?</string>
+    <string name="map_detail">Detalles del lugar</string>
+    <string name="map_select_a_tag_text">Esta dirección es:</string>
+    <string name="map_address_of_text">Esta dirección es de mi:</string>
+    <string name="map_address.save_address">Guardar dirección</string>
+
+    <!-- SurveyActivity -->
+    <string name="survey_write_a_comment">Escribe un comentario</string>
+    <string name="copy_write_a_comment">Escribe un comentario</string>
+    <string name="button_text_send_order">ENVIAR PEDIDO</string>
+
+    <!--Tip-->
+    <string name="no_tip">No</string>
+    <string name="remove_tip">Quitar</string>
+    <string name="other_tip">Otro</string>
+    <string name="copy.tip">Propina</string>
+    <string name="updated_tip">Propina modificada con éxito</string>
+
+    <string name="register_delivery_address_text">Dirección de entrega</string>
+    <string name="register.join_the_rappi_family">¡Únete a la\nfamilia Rappi!</string>
+    <string name="register.register_with_facebook">Regístrate con Facebook</string>
+    <string name="register.register_with_sms">Registrate con tu celular</string>
+    <string name="register.register_with_email">Registrate con tu E-mail</string>
+    <string name="register_continue_without_registring_text">SEGUIR SIN REGISTRARME</string>
+    <string name="register_finish_text">FINALIZAR</string>
+    <string name="copy.register_with_facebook_cancel">Registro con Facebook cancelado</string>
+    <string name="copy.facebook_without_email">No pudimos obtener tu E-mail de Facebook</string>
+    <string name="copy.facebook_error_getting_info">Error obteniendo información, por favor intenta de nuevo.</string>
+
+    <string name="cash">Efectivo</string>
+    <string name="copy.debit_card">Débito</string>
+    <string name="copy.pos_terminal">Datáfono</string>
+    <string name="copy.country_data">(+ %1$s %2$s)</string>
+    <string name="credit_card">Tarjeta de crédito</string>
+    <string name="paypal">Paypal</string>
+    <string name="load_debit_card_first">Verificando la disponibilidad \nde </string>
+    <string name="load_debit_card_second">&#160;Datáfonos</string>
+    <string name="load_no_debit_card_first">No hay datáfonos disponibles \nen tu</string>
+    <string name="load_no_debit_card_second">&#160;zona</string>
+    <string name="cancel">Cancelar</string>
+    <string name="copy_selected_place_at">Entrega:</string>
+    <string name="select_pay_method">Selecciona método de pago</string>
+    <string name="error_no_payment_method">Selecciona un método de pago</string>
+    <string name="copy_checkout_address">Estás en la %1$s</string>
+    <string name="copy_one_waiting">Estamos ubicando</string>
+    <string name="copy_two_waiting">al Rappi</string>
+    <string name="copy_three_waiting">más cercano</string>
+    <string name="copy_four_waiting">Danos unos segundos</string>
+    <string name="waiting_for_messenger_accept">Esperando a que un Rappi \n acepte tu solicitud…</string>
+    <string name="cancel_order">Cancelar pedido</string>
+    <string name="order_confirmed">Pedido confirmado</string>
+    <string name="do_nothing">¡Relájate, ya no tienes\nque hacer nada!</string>
+    <string name="ok">Ok</string>
+    <string name="since_create_list_copy">Hace:</string>
+    <string name="saving_list">Guardando lista…</string>
+    <string name="copy_list_detail">Estás en la lista:</string>
+    <string name="list_delete">¡Lista eliminada!</string>
+    <string name="no_add_products">NO INCLUIR</string>
+    <string name="add_products_to_list">AGREGAR A LA CANASTA</string>
+    <string name="register_complete_name_hint">Nombre</string>
+    <string name="copy.update_address">Editar dirección</string>
+    <string name="copy.address">Dirección</string>
+    <string name="add_address.where_do_you_want_your_order">¿A dónde quieres\nque llevemos tu pedido?</string>
+    <string name="address_change_registered_addresses">Direcciones registradas</string>
+    <string name="copy.address_not_found"><u>No encuentro mi dirección en la lista</u></string>
+    <string name="copy.select_map_address">1. Ubica en el mapa \n tú dirección exacta</string>
+    <string name="copy.fill_your_address">2. Completa tu dirección</string>
+    <string name="copy.dropdown_address">%1$s %2$skm</string>
+    <string name="copy.place_closed">cerrado</string>
+    <string name="copy.place_open">abierto</string>
+
+    <string name="edit_account_copy">&#160;&#160;Regístrate</string>
+    <string name="send">Enviar</string>
+    <string name="rate_the_service_copy">¡Por favor califica el servicio!</string>
+    <string name="seleted_one_option_copy">Debe seleccionar una opción para continuar</string>
+    <string name="survey_how_to_improve">Cuéntanos, ¿en qué podemos mejorar?</string>
+    <string name="copy_name_rappitendero_rate">%1$s</string>
+    <string name="survey_comment_hint">Escribe un comentario</string>
+    <string name="send_bill_title">Enviar factura a:</string>
+    <string name="send_bill_hint">E-mail</string>
+
+    <string name="select_address_header_text">¿Vas a pedir a</string>
+    <string name="select_address_sub_header_text">esta dirección?</string>
+    <string name="address_chooser_activity_different_address">NO, A UNA NUEVA DIRECCIÓN</string>
+    <string name="swipe_between_addresses">Desliza entre direcciones</string>
+    <string name="same_address_copy">SÍ, A ESA MISMA</string>
+    <string name="message.address_created_successfully">Dirección creada</string>
+    <string name="message.address_updated_successfully">Dirección actualizada</string>
+
+    <string name="copy_detail_product_description">Descripción</string>
+    <string name="copy.show_product_description">Ver descripción</string>
+    <string name="have_account">¿Ya tienes cuenta?</string>
+    <string name="copy_login"> <u>Ingresa</u></string>
+    <string name="copy_login_one">Ingresa</string>
+    <string name="copy_login_two">a tu cuenta</string>
+    <string name="login.login_with_facebook">Ingresa con Facebook</string>
+    <string name="login_with_google_text">Ingresar con Google+</string>
+    <string name="search_here_copy">Busca tu producto…</string>
+    <string name="login.sms_login">Ingresa con tu celular</string>
+    <string name="login.google_login_cancelled">Registro con Google cancelado</string>
+    <string name="login.sms_login_cancelled">Requisito de account kit cancelado</string>
+    <string name="register.sms_register_cancelled">Registro con SMS cancelado</string>
+    <string name="login.whatsapp_login">Ingresa con WhatsApp</string>
+    <string name="login.google_login">Ingresa con Google</string>
+
+    <!-- My Account copy -->
+    <string name="copy.my_account_save_changes_text_btn">GUARDAR</string>
+    <string name="copy.my_account_show_cards_btn_text">VER MIS TARJETAS</string>
+
+    <string name="copy.my_account_name_text">Nombre</string>
+    <string name="copy.my_account_email_text">E-mail</string>
+    <string name="copy.my_account_birthday_hint">Fecha de nacimiento</string>
+    <string name="copy.my_account_how_was_your_day">¿Qué tal tu día?</string>
+    <string name="copy.my_account_address_num">Direcciones</string>
+    <string name="copy.my_account_orders_num">No. pedidos</string>
+    <string name="copy.my_account_list_num">No. listas</string>
+    <string name="copy.my_account_current_password_text">Contraseña actual:</string>
+    <string name="copy.my_account_new_password_text">Nueva contraseña:</string>
+    <string name="copy.my_account_confirm_new_password_text">Confirma tu nueva contraseña:</string>
+    <string name="copy.my_account_phone_text">Celular</string>
+    <string name="copy.my_account_phone_cancelled">Cambio de número celular cancelado</string>
+    <string name="copy.my_account_pay_with_a_card_text">Pago con tarjeta:</string>
+    <string name="copy.my_account_main_address_text">Dirección de entrega:</string>
+    <string name="copy.my_account_complete_fields">Completa todos los campos para continuar</string>
+    <string name="message.my_account_passwords_do_not_match">La nueva contraseña y confirmación no coinciden</string>
+    <string name="message.my_account_change_password_successfull">Contraseña cambiada correctamente</string>
+    <string name="zero">0</string>
+
+    <string name="download_view_downloading_bd_text">Descargando base de datos…</string>
+    <string name="registry_with_email_copy">Registro con E-mail</string>
+    <string name="choose_gender">Selecciona tu género:</string>
+    <string name="gender_male">Hombre</string>
+    <string name="gender_female">Mujer</string>
+
+    <string name="downloading_db_view_downloading_text">Descargando base de datos…</string>
+    <string name="detail_product_add_btn_text">Agregar</string>
+    <string name="detail_product_see_substitutes">Ver sustitutos</string>
+    <string name="register_order_option_header_text">¿Qué hacemos si en alguna\noportunidad no encontramos</string>
+    <string name="rappi_terms_and_conditions">Rappi Marca. Términos de Uso. Políticas de Cookies\n y Políticas de Privacidad</string>
+    <string name="register_delivery_option_opt_one_text">No me llamen, prefiero que\nenvíen el pedido sin incluir\nese producto.</string>
+    <string name="register_delivery_option_opt_two_text">Te enviamos un producto muy similar (recomendado)</string>
+    <string name="register_delivery_option_opt_three_text">Te chateamos o te llamamos para que nos indiques el sustituto</string>
+    <string name="register_delivery_option_opt_fourth_text">Tratamos de conseguirlo en otra tienda aunque nos demoremos más</string>
+    <string name="register_delivery_option_sub_header_text">algún producto que pidas?</string>
+    <string name="total_order_discount">Descuento en la orden: </string>
+    <string name="includes_service_cost_copy">Incluye costo del servicio </string>
+    <string name="delivery_price_copy">Costo del domicilio </string>
+    <string name="delivery_price_copy.without_service">Sin incluir costo del domicilio</string>
+
+    <string name="delivery_price_with_discount">&#160;%1$s (%2$s de Descuento)</string>
+    <string name="products_found">Productos que has encontrado:</string>
+
+    <string name="copy_survey_title">¿Cómo te pareció el servicio\nde %1$s?</string>
+    <string name="copy_storekeeper_name">RappiTendero</string>
+    <string name="copy_rappi_running_to_you">Tu Rappi está corriendo hacia ti</string>
+    <string name="survey_your_last_order_was_text">Tu último pedido fue de %1$s\nel día %2$s</string>
+    <string name="open_basket_scheduled_order_text">Pedido programado para:</string>
+    <string name="open_basket_schedule_order_text_btn">Programar para más tarde</string>
+    <string name="rappi_time_picker_schedule_text">Programar entre:</string>
+
+    <string name="edit">Editar</string>
+    <string name="order_again">Pídelo de nuevo</string>
+    <string name="finish">TERMINAR</string>
+
+    <string name="name_of_list">Nombre</string>
+    <string name="list_saved">Lista guardada correctamente</string>
+    <string name="list_update_error">No se pudo actualizar la lista</string>
+    <string name="list_empty_error">¡Debes tener productos en la lista!</string>
+    <string name="rappi_is_expanded_copy">Rappi se está\nexpandiendo a todo</string>
+    <string name="colombia">Colombia</string>
+    <string name="copy_coverage">Aún no tenemos cobertura en tu zona.\nPuedes reclamar gratis un Jugo Del\nValle y unas galletas Fitness la\npróxima vez que pidas desde alguna\nde nuestras zonas de cobertura.</string>
+    <string name="coverage_copy_no_zone">Te avisaremos cuando lancemos\ncobertura en esta área</string>
+    <string name="message.no_coverage">Zona sin cobertura</string>
+    <string name="coverage_copy_part_1">Comparte tu zona con tus vecinos y\nte regalaremos unas&#160;</string>
+    <string name="coverage_copy_part_2">papitas&#160;</string>
+    <string name="coverage_copy_part_3">y una\n</string>
+    <string name="coverage_copy_part_4">gaseosa&#160;</string>
+    <string name="coverage_copy_part_5">cuando lancemos</string>
+    <string name="text_button_resume_order">VER RESUMEN</string>
+    <string name="copy_total_resume_order">Total:&#160;%1$s</string>
+    <string name="copy.estimated_time_to_delivery">Tiempo de entrega estimado</string>
+    <string name="copy.minutes">%1$s minutos</string>
+    <string name="copy_header_buttons_call">LLAMAR</string>
+    <string name="copy.chat_to">Chatear</string>
+    <string name="address_tag_home">Casa</string>
+    <string name="address_tag_office">Oficina</string>
+    <string name="address_tag_partner">Novi@</string>
+    <string name="address_tag_other">Otro</string>
+
+    <string name="copy.resume">Resumen de la orden</string>
+
+
+    <!-- coverage form -->
+    <string name="coverage_form_email_hint">E-mail</string>
+    <string name="coverage_form_name_hint">Nombre</string>
+
+    <!-- Social Network -->
+    <string name="logging_in_email">Iniciando sesión</string>
+    <string name="logging_in_facebook">Iniciando sesión con Facebook</string>
+    <string name="logging_in_google_plus">Iniciando sesión con Google +</string>
+    <string name="product_remove">Producto eliminado</string>
+    <string name="product_added">Producto agregado</string>
+    <string name="product_not_added">Producto no agregado</string>
+    <string name="card">&#160;tarjeta</string>
+    <string name="copy.add_new_credit_card">AGREGAR NUEVA TARJETA</string>
+    <string name="dummy_credit_card">XXXX.%1$s</string>
+    <string name="copy_cancel_credit_card">No se pudo agregar la tarjeta</string>
+
+    <string name="error_invalid_credit_card">Tarjeta inválida</string>
+    <string name="credit_card_added">Tarjeta agregada</string>
+    <string name="copy.empty_credit_card">Aún no has registrado ninguna\ntarjeta para realizar tus pagos</string>
+    <string name="copy.no_credit_card_yet">Aún no hay tarjetas</string>
+    <string name="copy.register_your_credit_card">Registra tu tarjeta y realiza tus pagos</string>
+    <string name="credit_card.pay_with">Vas a pagar con:</string>
+    <string name="credit_card.other_cards">Otras tarjetas</string>
+    <string name="credit_card.remove_card">Eliminar tarjeta</string>
+    <string name="credit_card.remove_card_confirmation">¿Estás seguro que quieres \neliminar esta tarjeta?</string>
+
+
+    <string name="waiting_messenger_rappi_alert_text_one">¿Estás seguro que quieres cancelar el pedido?</string>
+    <string name="waiting_messenger_rappi_alert_text_two">¿Cancelar el pedido?</string>
+    <string name="waiting_messenger_rappi_alert_text_three">¿Estás seguro que deseas editar el pedido?</string>
+
+    <string name="waiting_messenger_rappi_alert_yes">SÍ</string>
+    <string name="waiting_messenger_rappi_alert_no">NO</string>
+
+    <string name="waiting_messenger_rappi_alert_want_to_wait">Lo sentimos, en el momento</string>
+    <string name="waiting_messenger_rappi_alert_more_time">no hay un Rappi\npara atenderte</string>
+    <string name="waiting_messenger_rappi_alert_yes_wait">REINTENTAR</string>
+    <string name="waiting_messenger_rappi_alert_no_cancel">MÁS TARDE</string>
+    <string name="copy_title_seeker_one">¿Qué estás</string>
+    <string name="copy_title_seeker_two">&#160;buscando?</string>
+
+    <!-- Coupon -->
+    <string name="copy.coupon_redeem_message">Si recibiste un código\nde cupón, ingrésalo ahora.</string>
+    <string name="copy.coupon_redeem_message_secondary">¡Redime nuevos cupones y disfruta!</string>
+    <string name="coupon_question">¿Tienes <b>cupón</b> de regalo?</string>
+    <string name="coupon_question_part1">¿Tienes&#160;</string>
+    <string name="coupon_question_part2"><b>cupón</b></string>
+    <string name="coupon_question_part3">&#160;de regalo?</string>
+    <string name="copy.coupon_code_hint">Código</string>
+    <string name="button_continue">Continuar</string>
+    <string name="button_no_coupon">NO TENGO</string>
+    <string name="button_yes_coupon">SI TENGO</string>
+    <string name="empty_coupon_code">Debes ingresar el código del cupón</string>
+    <string name="verifying_coupon">Estamos verificando tu cupón…</string>
+    <string name="coupon_activated">Cupón activado</string>
+    <string name="coupon_valid">Cupón válido</string>
+    <string name="validating_coupon">Validando cupón…</string>
+    <string name="invalid_coupon">El cupón que ingresaste es inválido</string>
+    <string name="button_try_again">Volver a intentar</string>
+    <string name="coupon_account_message">Por favor regístrate\npara validar tu cupón</string>
+
+    <!-- offer -->
+    <string name="offer_discount_title">¡DESCUENTO!</string>
+    <string name="offer_free_title">¡GRATIS!</string>
+    <string name="offer_description_discount">Este producto tiene un descuento del %1$s</string>
+    <string name="offer_description_end_date">Oferta disponible hasta: %1$s</string>
+    <string name="offer_global_offers">Ofertas disponibles para ti</string>
+
+    <string name="basket_free_delivery">¡Gratis! (100% de Descuento)</string>
+
+
+    <!-- coverage -->
+    <string name="coverage_form_title1">Para continuar completa</string>
+    <string name="coverage_form_title2">los siguientes datos</string>
+    <string name="subscribe_now">Suscríbete ahora</string>
+    <string name="sending_information">Enviando información…</string>
+    <string name="information_sent">Tu información ha sido enviada</string>
+    <string name="old_order">Pedido realizado</string>
+    <string name="copy.empty_list">Aquí aparecerá tu lista de\npedidos anteriores</string>
+    <string name="copy_empty_list_suggested">Aquí aparecerán tus\nlistas sugeridas</string>
+    <string name="confirmation_delete_list">¿Seguro deseas eliminar la lista?</string>
+
+
+    <!-- price tag -->
+    <string name="price_tag_price_per_unit">Precio x Unidad</string>
+
+    <!-- coupon validation -->
+    <string name="coupon_replace_older_message">¿Deseas reemplazar el cupón %1$s por el que acabas de ingresar?</string>
+    <string name="checkount_invalid_coupon_message">Desafortunadamente el cupón que\ningresaste ya no es válido</string>
+    <string name="checkount_invalid_coupon_question">¿Quieres que te quitemos los productos que\nestaban en promoción en tu cesta?</string>
+
+    <string name="copy_header_update_app_one">Tiempo para una</string>
+
+    <string name="copy_header_update_app_two">Actualización</string>
+    <string name="copy_update_app">Hay una nueva versión de Rappi\ndisponible; esta versión ya no es\n compatible. Para continuar debes\nactualizar la aplicación.</string>
+    <string name="update_now">ACTUALIZAR AHORA</string>
+
+    <!-- intro 1 -->
+    <string name="intro_subtitle">Toda tu ciudad\nen minutos</string>
+
+    <!--GeneralMenu-->
+    <string name="go_to">Cambiar a&#160;</string>
+    <string name="current_type_of_store">Estás en&#160;</string>
+    <string name="copy.guest">Invitado</string>
+    <string name="edit_photo">Editar foto</string>
+    <string name="take_photo">Tomar foto</string>
+    <string name="upload_photo">Subir foto</string>
+    <string name="edit_your_account">" Editar tu cuenta"</string>
+    <string name="choose_photo_from_gallery">Seleccionar foto existente</string>
+    <string name="alert.cant_change_store">No puedes cambiar tu tipo de compra en esta zona</string>
+    <string name="alert.cant_change_store_downloading_db">No puedes cambiar tu tipo de compra mientras se descarga la base de datos</string>
+    <string name="alert.cant_change_address_downloading_db">No puedes cambiar tu dirección mientras se descarga la base de datos</string>
+    <string name="copy.earn_miles">Acumula millas</string>
+
+    <!-- Type of Store-->
+    <string name="something_quick">Algo Ráppido</string>
+    <string name="order.whim">Lo que sea</string>
+
+
+    <!--- header -->
+    <string name="hint_seeker">%1$s…</string>
+    <string name="account_phone_number_exception_text">El número celular debe ser de 10 dígitos</string>
+    <string name="coverage_we_need_your_help_copy">Necesitamos tu ayuda para</string>
+    <string name="coverage_enable_zone">abrir tu zona</string>
+    <string name="coverage_still_need_copy">". Nos faltan:"</string>
+    <string name="coverage_people_in_your_zone_copy">"personas de tu zona\npara que lleguemos."</string>
+
+
+    <string name="copy_subtitle_new">Novedades</string>
+    <string name="alert.understood">Entendido</string>
+    <string name="copy_title_news">¿Sabías que ahora… ?</string>
+    <string name="copy_header_chat">Chatea con el Rappi</string>
+    <string name="copy.chat_send">ENVIAR</string>
+    <string name="hint.chat_message">Escribe aquí…</string>
+
+    <!--Whim and tip-->
+    <string name="title_edit_tip">¿Quieres mejorar la propina?</string>
+	<!-- no se usa más
+		<string name="message_tip">Mas del 70% de usuarios doblan\nla propina si piden un antojo</string> 
+	-->
+
+    <string name="basket.high_demand">Alta demanda</string>
+    <string name="basket.min_value">El pedido mínimo es de %1$s</string>
+    <string name="basket.missing_value">Te faltan %1$s para realizar el pedido.</string>
+
+    <string name="checkout.delivery_clarification">*Puede aplicar recargos por distancia</string>
+
+
+    <string name="rappi_alert_age_copy_text">El expendio de este\nproducto <b>está prohibido</b> para menores de edad</string>
+    <string name="copy.age_restriction">Este es un producto de venta restringida. Producto exclusivo para mayores de edad.</string>
+    <string name="copy.age_restriction_checkout">Vas a pagar un producto de venta restringida. Pedido exclusivo para mayores de edad.</string>
+
+    <string name="rappi_alert_age_registered_ok_btn_text">Ok</string>
+    <string name="rappi_alert_age_register_btn_text">REGISTRARME</string>
+    <string name="copy_update">ACTUALIZAR</string>
+
+    <!-- bascule -->
+    <string name="bascule_text_hint">888888</string>
+    <string name="bascule_text_comment_hint">Escribe tus comentarios</string>
+    <string name="button_bascule_product_customise1">¿CÓMO LO QUIERES?</string>
+    <string name="button_bascule_product_customise2">Escribe tus comentarios</string>
+    <string name="button_add">Agregar</string>
+    <string name="button_plus">+</string>
+    <string name="button_minus">-</string>
+    <string name="fruit_stage_low_maturity">Biche</string>
+    <string name="fruit_stage_normal_maturity">Normal</string>
+    <string name="fruit_stage_high_maturity">Madura</string>
+    <string name="copy_weight">Peso</string>
+    <string name="copy_unit">Unidades</string>
+
+    <!-- gift -->
+    <string name="gift_message1">Mándale tu código a todos tus amigos para que obtengan gratis unas <b>papas de limón</b> y una <b>Coca-Cola</b> de 200ml</string>
+    <string name="gift_message2">Por cada 5 amigos que compren, te enviamos un regalo sorpresa.</string>
+    <string name="button_share_whatsapp">Enviar por WhatsApp</string>
+    <string name="empty_referral_code">*NO REFERRAL CODE*</string>
+    <string name="sharing_referred_code_title">¡%1$s te ha regalado: %2$s!</string>
+    <string name="whatsapp_sharing_message">¡Te regalo una sorpresa! Descarga Rappi en este link: %1$s y no se te olvide ingresar mi código de cupón: %2$s para validar tu regalo</string>
+    <string name="whatsapp_sharing_message_small">Descarga Rappi en este link: %1$s y no se te olvide ingresar mi código de cupón: %2$s para validar tu regalo</string>
+
+
+    <!--Rate App-->
+    <string name="rate_initial_question_part_1">¿Te ha&#160;</string>
+    <string name="rate_initial_question_part_2">gustado</string>
+    <string name="rate_initial_question_part_3">&#160;Rappi?</string>
+    <string name="button_no_rate_initial">NO</string>
+    <string name="button_yes_rate_initial">SI</string>
+    <string name="rate_store_question_part_1">¿Nos ayudarías con una&#160;</string>
+    <string name="rate_store_question_part_2">calificación</string>
+    <string name="rate_store_question_part_3">&#160;en Google Play?&#160;</string>
+    <string name="rate_suggestion_question_part_1">¿Te gustaría dejar un&#160;</string>
+    <string name="rate_suggestion_question_part_2">comentario</string>
+    <string name="rate_suggestion_question_part_3">\?</string>
+    <string name="button_no_thanks_rate">No, gracias</string>
+    <string name="button_yes_sure_rate">Sí, claro</string>
+    <string name="button_cancel_suggestion">Cancelar</string>
+    <string name="button_send_suggestion">Enviar</string>
+    <string name="rate_suggestion_label_part_1">Deja tu&#160;</string>
+    <string name="rate_suggestion_label_part_2">comentario</string>
+    <string name="rate_suggestion_hint">Escribe tu comentario</string>
+    <string name="rate_choose_reason">Selecciona al menos una de las razones para calificar el servicio</string>
+
+    <!-- profile -->
+    <string name="profile_updated">Tu perfil ha sido actualizado</string>
+    <string name="phone_number_updated">Número de teléfono agregado</string>
+    <!--New Map-->
+    <string name="select_your_location">UBICA TU DIRECCIÓN</string>
+
+    <string name="copy_calculated_time">CALCULÁNDOSE</string>
+
+    <!--DATE FORMAT-->
+    <!-- 
+		*** expresiones de fecha / hora movidas a date_strings.xml ***
+
+		<string name="date_format_day_month_text">EEEE dd \'de\' MMMM</string>
+		<string name="date_format_month_text">dd \'de\' MMMM</string>
+		<string name="date_format_month_year_text">dd \'de\' MMMM yyyy</string>
+		<string name="date_format_day_hour_text">EEEE dd \'a las\' HH:mm a</string>
+		<string name="date_format_day_hour_not_military_text">EEEE dd\',\' HH:MM a</string>
+	-->
+    <string name="copy.complete_your_address_title">Completa tu dirección</string>
+    <string name="copy.complete_your_address">Completa tu dirección</string>
+
+    <!--Socket Events-->
+    <string name="message_order_canceled_by_server">Orden cancelada por el servidor</string>
+
+
+    <string name="coverage_we_will_be_copy">Estaremos</string>
+    <string name="coverage_very_soon_copy">MUY PRONTO</string>
+    <string name="coverage_at_copy"> en la:</string>
+
+    <!-- split fare -->
+    <string name="split_fare_title">Invitar para dividir</string>
+    <string name="split_fare_button">PAGAR ENTRE VARIOS</string>
+    <string name="search_field_hint">Escribe un nombre o un celular</string>
+    <string name="split_fare_invitations">Invitaciones</string>
+    <string name="split_fare_invited_contacts">Usuarios invitados</string>
+    <string name="split_fare_not_valid_contacts">Usuarios no válidos</string>
+    <string name="split_fare_not_valid_information_contacts">No tienen tarjeta de crédito registrada</string>
+    <string name="split_fare_not_found_contacts">Usuarios no encontrados</string>
+    <string name="split_fare_not_found_information_contacts">No están registrados en la aplicación</string>
+    <string name="split_fare_confirm">CONFIRMADO</string>
+    <string name="split_fare_declined">RECHAZADO</string>
+    <string name="split_fare_pending">PENDIENTE</string>
+    <string name="split_fare_send_sms">ENVIAR SMS</string>
+    <string name="split_fare_message_by_sms">Instala Rappi y regístrate</string>
+    <string name="split_fare_invitation_default_name">Un amigo</string>
+    <string name="split_fare_invitation_default_message">Te invita a dividir la cuenta</string>
+
+    <string name="accept_button">ACEPTAR</string>
+    <string name="reject_button">RECHAZAR</string>
+
+
+    <!--Coverage-->
+    <string name="coverage_whatsapp_title">WhatsApp mensaje cobertura</string>
+    <string name="coverage_whatsapp_message">WhatsApp mensaje cobertura</string>
+
+    <string name="coverage_facebook_url">http://www.rappi.com</string>
+
+    <string name="coverage_google_plus_message">Rappi Google +</string>
+    <string name="coverage_google_plus_url">http://www.rappi.com</string>
+
+    <string name="button_chat_big">Agrega una indicación o más\nproductos a tu orden por chat</string>
+
+
+    <!--New Waiting view-->
+    <string name="copy_ready">¡Listo!</string>
+    <string name="waiting_view_subtitle">Tu pedido ya está\nsiendo tramitado</string>
+    <string name="waiting_view_subtitle_programming">Tu pedido ha\nsido programado</string>
+
+    <string name="waiting_view_subtitle_small">Estamos asignándote un Rappi</string>
+    <string name="waiting_view_subtitle_small_programming">Tu pedido ha sido programado para %1$s</string>
+    <string name="waiting_view_message_small">Te notificaremos cuando tu Personal Shopper este seleccionando tus productos</string>
+    <string name="order_scheduled.back_to_store">Ok, volver a la tienda.</string>
+    <string name="order_scheduled.delivery_date">Entrega:</string>
+    <string name="order_scheduled.delivery_hour">Hora:</string>
+    <string name="order_scheduled.closed_format">Cierra %1$s</string>
+    <string name="order_scheduled.open_format">Cerrado. Abre : %1$s</string>
+    <string name="order_scheduled.title">Programa tu pedido</string>
+    <string name="order_scheduled.title_right">Guardar</string>
+    <string name="order_scheduled.date_long_format" translatable="false">%1$s - %2$s</string>
+
+
+    <!--New Survey View-->
+    <string name="message_rate_rappi">¿Según tu última experiencia\nrecomendarías Rappi a un amigo?</string>
+    <string name="copy_amazing_part1">¡Increíble! </string>
+    <string name="copy_amazing_part2">muy Ráppido\nsonriente, atento y efectivo!</string>
+    <string name="copy_good">Estuvo muy bien</string>
+    <string name="copy_regular">Pudo ser mejor</string>
+    <string name="title_amazing">¡Super! ¿Tienes ideas?</string>
+    <string name="title_not_sure">¿Cómo mejoramos?</string>
+    <string name="title_regular">¿Que te paso? :(</string>
+    <string name="copy.continue">Continuar</string>
+    <string name="copy.done">¡Listo!</string>
+
+    <string name="copy_cash_coupon">Si no tienes tarjeta puedes pedir tu cupón en\nefectivo si llevas más de %1$s pesos.</string>
+
+
+    <string name="copy_edit_address">Editar</string>
+
+    <string name="copy.intro_message_last_page">Busca la opción &quot;Ganar comida gratis&quot; y\nregálale dinero a cada uno de tus amigos.\nPor cada amigo que haga una compra te\nganas el mismo monto.</string>
+
+    <!-- Send code-->
+    <string name="copy_try_again_send_code"><u>Reenviar código</u></string>
+    <string name="copy_call_send_code">No me llegó. <u>Llámenme</u></string>
+    <string name="copy_change_phone"><u>Cambiar celular</u></string>
+    <string name="copy.continue_without_confirmation"><u>Seguir sin confirmar el telefono</u></string>
+    <string name="copy_message_phone_validation">Por favor ingresa el número de 4 dígitos\nque te estamos enviando al\n%1$s</string>
+    <string name="copy_message_phone_validation_2">Por favor ingresa el número de 4 dígitos que te estamos enviando al %1$s</string>
+    <string name="copy_message_phone_code">Código de confirmación</string>
+
+
+    <string name="copy_title_phone_validation">Verifica tu celular</string>
+    <string name="copy_title_phone_validation_change_number">Cambia tu número celular</string>
+
+    <string name="copy_message_gps_permission">Estamos reorganizando\ntu tienda según la hora\ny tus preferencias</string>
+    <string name="copy_message_gps_permission_downloading_db">Descargando base de datos…</string>
+    <string name="copy.title_register">¡Únete a Rappi!</string>
+    <string name="copy_button_login_or_register">SIGUIENTE</string>
+    <string name="login.login">Ingresar</string>
+    <string name="login.email_login">Ingresa con tu E-mail</string>
+    <string name="copy_email_register">Regístrate con tu E-mail</string>
+    <string name="copy_or">O</string>
+    <string name="copy_hint_facebook_register">La forma más rápida de registrarse, nunca\npostearemos algo en Facebook sin tu permiso.</string>
+    <string name="copy.phone_number">Celular</string>
+    <string name="copy_hint_coupon">Cúpon de regalo</string>
+    <string name="copy_button_validate_coupon">Validar</string>
+    <string name="copy_terms_and_conditions_contact_us_part_1">Infórmate y conoce de nuestros\n %1$s y %2$s</string>
+    <string name="copy_terms_and_conditions_part_1">Acepto los %1$s\ny %2$s</string>
+    <string name="copy_terms_and_conditions_part_2">Términos y Condiciones de Uso</string>
+    <string name="copy_terms_and_conditions_part_3">Políticas de Habeas Data</string>
+    <string name="copy_valid_number">Ingresa un número válido</string>
+
+    <!-- New Gps Permission-->
+    <string name="copy_title_gps_permission">¡Hola!</string>
+    <string name="copy_code_country">+ %1$s</string>
+    <string name="copy_form_code_country"> (+ %1$s) </string>
+    <string name="copy.search_market_empty">Lo sentimos, no encontramos resultados de tu búsqueda.</string>
+    <string name="copy.search_empty">Lo sentimos, no encontramos\nresultados de tu búsqueda. Puedes\npedir tu producto en la sección Lo que sea</string>
+    <string name="copy.search_no_result">Sin resultados</string>
+    <string name="copy.search_keep_buying">Seguir comprando</string>
+
+	<!-- no se usan más
+		<string name="copy_button_empty_now_title">¿Deseas pedir un antojo?</string>
+		<string name="copy_button_empty_now_subtitle">Lo que quieras, en serio, lo que quieras.</string>
+	-->
+    <string name="coupon_copy_seeker">Cupón</string>
+    <string name="subTitle_categories_lane">Tus categorías</string>
+    <string name="title_categories_lane">Pasillo personalizado</string>
+
+
+    <string name="type_buy_now_part_1">Algo\n</string>
+    <string name="type_buy_now_part_2">Rappi</string>
+    <string name="type_buy_now_part_3">do</string>
+
+    <string name="type_buy_market_part_1">Hacer\n</string>
+    <string name="type_buy_market_part_2">Mercado</string>
+
+    <!-- New Intro -->
+    <string name="intro_have_account">Ya tengo cuenta</string>
+
+    <string name="intro_new_user">Nuevo usuario</string>
+
+    <!-- Type of purchase-->
+    <string name="delivery_in_minutes">Entrega en minutos</string>
+    <string name="delivery_in_less_than_an_hour">Entrega en menos de una hora</string>
+    <string name="orders_now_disabled">Muy pronto en esta dirección tendrás la opción\nde almuerzo y tienda de barrio en minutos</string>
+    <string name="copy_now">Ahora: </string>
+    <string name="copy_checking">Verificando cobertura…</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Contraseña (opcional)</string>
+    <string name="action_sign_in">Inicia sesión o regístrate</string>
+    <string name="action_sign_in_short">Inicia sesión</string>
+
+    <string name="permission_rationale">Se necesitan permisos de acceso a los contactos para habilitar autocompletado de E-mail.</string>
+    <string name="copy_loading">Cargando…</string>
+    <string name="copy_change_type_store">¿Quieres cambiar la sección de la tienda?</string>
+    <string name="copy_different_baskets">Ten en cuenta que son\ncanastas separadas</string>
+    <string name="copy_hint_change_type_store_part_1">Los productos que tengas en esta canasta se quedarán\nesperándote hasta que vuelvas a la sección\n de </string>
+
+    <string name="button_show_more_from_category">VER TODOS LOS PRODUCTOS DE</string>
+
+    <string name="retry_download_database">Reintentar</string>
+    <string name="next_database">Siguiente</string>
+    <string name="copy_we_need_storage_permission">Necesitamos permiso para acceder a tu almacenamiento</string>
+
+    <string name="copy_monday">Lunes</string>
+    <string name="copy_tuesday">Martes</string>
+    <string name="copy_wedneday">Miércoles</string>
+    <string name="copy_thursday">Jueves</string>
+    <string name="copy_friday">Viernes</string>
+    <string name="copy_saturday">Sábado</string>
+    <string name="copy_sunday">Domingo</string>
+    <string name="copy_hour_mornig">AM</string>
+    <string name="copy_hour_afternoon">PM</string>
+
+    <string name="copy_phone_with_country_code">(+%1$s) %2$s</string>
+    <string name="copy_schedule_confirmation_one">Para cancelar</string>
+    <string name="copy_schedule_confirmation_two">debes enviar un mail a potato@grability.com</string>
+
+    <string name="copy_shopping_tooltip">Encuentra frutas, carnes, aseo,\ndespensa y más. Compramos por tí</string>
+    <string name="copy_shopping_tooltip_bold">con el mismo amor.</string>
+    <string name="copy.terms_and_conditions">Términos y Condiciones de Uso</string>
+    <string name="copy.terms_and_conditions_title">Términos y Condiciones</string>
+    <string name="copy_footer_simple_map_box">Trata de ubicarte en el mapa de forma\nexacta para que tu pedido te llegue más rápido</string>
+    <string name="cancel_scheduled_order">Cancela orden programada</string>
+    <string name="copy_product_grams">%1$dg</string>
+    <string name="copy_product_kilograms">%1$.1fkg</string>
+    <string name="copy.message_empty_basket">Aún no tienes productos\nen tu canasta</string>
+    <string name="copy.basket_change_address">Cambiar</string>
+
+    <string name="button_continue_without_coupon">Continuar sin cupón</string>
+    <string name="button_back_to_store">Volver a la tienda</string>
+    <string name="button_back">Volver</string>
+
+    <string name="copy.set_your_address">Ingresa tu dirección</string>
+    <string name="copy.delivery_boy_screen">Hemos terminado de empacar tus productos,\ntu pedido fue entregado al Rappi:</string>
+    <string name="copy.customer_service_boy_screen">Si tienes cualquier inconveniente escríbenos a\n%1$s</string>
+    <string name="copy.data_phone">Tel:%1$s</string>
+    <string name="copy.share_gift_code">Invita en segundos</string>
+
+
+    <string name="copy.resume_products_cost">Costo de los productos:</string>
+    <string name="copy.resume_service_cost">Costo del servicio:</string>
+
+    <string name="copy.resume_rappi_credits">RappiCréditos:</string>
+    <string name="copy.resume_coupon_discount">Descuento:</string>
+    <string name="copy.resume_tip">Propina indicada:</string>
+    <string name="copy.resume_total_value">Total:</string>
+
+
+    <string name="copy.picker_order_for_other_moment">Programar para más tarde</string>
+    <string name="copy.picker_delivery_on">Entrega en menos de 45 minutos</string>
+    <string name="checkout.picker_delivery_on_hour">Programado:</string>
+
+
+    <string name="copy.schedule_header">Programar pedido</string>
+    <string name="copy.schedule_title_one">Elige un horario de entrega</string>
+    <string name="copy.schedule_title_two">Tú o alguien más debe estar\ndisponible para recibir el pedido</string>
+    <string name="copy.schedule_empty_one">Lo sentimos,\nhoy no tenemos ningún horario\ndisponible para programar tu pedido.\n</string>
+    <string name="copy.schedule_empty_two">Intenta en la pestaña de otro día</string>
+    <string name="copy.schedule_today">Hoy</string>
+    <string name="copy.schedule_tomorrow">Mañana</string>
+    <string name="copy.schedule_approximate_time">Apróx. %1$s min</string>
+
+    <string name="send_order_now">Lo antes posible</string>
+
+
+    <string name="copy.no_customer_service_available">Estamos fuera del horario de atención</string>
+    <string name="copy.choose_a_problem">Selecciona un problema</string>
+
+
+    <string name="copy.enter_your_address">Ingresa tu dirección</string>
+    <string name="copy.downloading_products">Estamos descargando\ntu tienda, danos unos\nsegundos :)</string>
+
+    <string name="copy.write_name_of_list">Dale nombre</string>
+
+
+    <string name="profile.rappi_credit_availables">RappiCréditos disponibles</string>
+    <string name="profile.choose_picture">Seleccionar foto</string>
+
+    <string name="copy.title_read_storage_permission">Leer memoria</string>
+    <string name="copy.message_read_storage_permission">Sin este permiso, Rappi no puede buscar en tu galería.</string>
+    <string name="copy.title_location_permission">Localización</string>
+    <string name="copy.message_location_permission">Con este permiso podremos ofrecer un mejor servicio al momento de centrar tu ubicación</string>
+    <string name="copy.title_call_permission">Llamar</string>
+    <string name="copy.message_call_permission">Sin este permiso, Rappi no puede realizar llamadas.</string>
+    <string name="copy.title_receive_sms_permission">Recibir SMS</string>
+    <string name="copy.message_receive_sms_permission">Sin este permiso, Rappi no puede recibir el mensaje de confirmación, tendrás que ingresarlo manualmente.</string>
+    <string name="copy.title_contacts_permission">Leer contactos</string>
+    <string name="copy.message_contacts_permission">Sin este permiso, Rappi no puede buscar en tus contactos.</string>
+    <string name="copy.title_record_audio">Grabar audio</string>
+    <string name="copy.message_record_audio">Sin este permiso, Rappi no puede grabar mensajes de voz.</string>
+    <string name="copy.title_external_storage">Manejo de imágenes.</string>
+    <string name="copy.message_external_storage">Sin este permiso, no podemos cargar imágenes.</string>
+    <string name="copy.message_overlay">¿Deseas activar la ayuda? Sin este permiso, no podemos ayudarte.</string>
+    <string name="draw_other_app_permission_denied">No podemos ayudarte sin el permiso.</string>
+
+    <string name="copy.category_lane_keep_swiping">Sigue deslizando</string>
+
+    <string name="format.eta">%1$s : %2$s</string>
+    <string name="format.two_parts_with_separator">%1$s - %2$s</string>
+    <string name="format.two_parts">%1$s  %2$s</string>
+    <string name="copy.permissions_accept">Aceptar</string>
+    <string name="dummies.user_name">%1$s,</string>
+    <string name="dummies.same_as_always">Lo de siempre</string>
+
+    <string name="copy.decline">Abandonar</string>
+    <string name="copy.subscribe">Suscribirse</string>
+    <string name="copy.accept">Aceptar</string>
+    <string name="copy.no">No</string>
+    <string name="copy.yes">Sí</string>
+    <string name="copy.omit">Omitir</string>
+    <string name="copy.cancel">Cancelar</string>
+
+    <string name="copy.confirm_exit">¿Seguro deseas cerrar sesión?</string>
+
+    <string name="concat.two_strings">%1$s %2$s</string>
+
+
+    <string name="copy.choose_your_country">Selecciona tu país</string>
+    <!--NEW HOME-->
+    <string name="error.stores_types_not_available">Tipos de tienda no disponible en esta dirección</string>
+    <string name="copy.minutes_abr">min</string>
+    <string name="copy.minutes_mocked">15</string>
+
+    <string name="copy.default_quick_title">Quiero algo Ráppido</string>
+    <string name="copy.default_quick_subtitle">Tienda de barrio y minimarket</string>
+
+    <string name="copy.default_restaurants_title">Quiero comer</string>
+    <string name="copy.default_restaurants_subtitle">Restaurantes, repostería, postres.</string>
+
+    <string name="copy.default_market_title">Quiero mercar</string>
+    <string name="copy.default_market_subtitle">Supermercado e hipermercado</string>
+
+    <string name="copy.default_pharmacy_title">Quiero bienestar</string>
+    <string name="copy.default_pharmacy_subtitle">Farmacia, bebé y belleza.</string>
+
+    <string name="copy.default_super_market_title">Supermercado cercano</string>
+    <string name="copy.default_super_market_subtitle">Compramos en el mercado\nmás fino de tu zona</string>
+    <string name="copy.default_super_market_quantity">+12.000 productos</string>
+    <string name="copy.default_super_market_additional_information">Más importados</string>
+    <string name="copy.default_super_market_time">35 min</string>
+
+    <string name="copy.default_hyper_market_title">Hipermercado</string>
+    <string name="copy.default_hyper_market_subtitle">Vamos más lejos para comprar\na mejor precio</string>
+    <string name="copy.default_hyper_market_quantity">+25.000 productos</string>
+    <string name="copy.default_hyper_market_additional_information">Mejores precios</string>
+    <string name="copy.default_hyper_market_time">50 min</string>
+    <string name="copy.another_stores">¿Buscas otras tiendas?</string>
+    <string name="checkout.checkout">Checkout</string>
+
+
+    <string name="copy.rappi">© 2016 Rappi</string>
+
+    <string name="copy.title_add_list">Agregar a</string>
+
+    <string name="copy.title_lists">Listas y favoritos</string>
+    <string name="copy.message_lists">¡Ahorra tiempo\nusando tus listas!</string>
+    <string name="copy.message_lists_secondary">Puedes editar, duplicar e incluir\ntoda la lista a la canasta.</string>
+    <string name="copy.product">%1$s producto</string>
+    <string name="copy.products">%1$s productos</string>
+    <string name="copy.rappi_tip">RappiTip</string>
+    <string name="copy.rappi_code">RappiCode</string>
+    <string name="copy.rappi_code_invalid">¡El RappiCode es incorrecto!</string>
+    <string name="copy.rappi_code_address_list">Mis direcciones</string>
+    <string name="copy.rappi_code_sorry_title">Lo sentimos :/</string>
+    <string name="copy.rappi_code_sorry_description">El RappiCode no está disponible en esta dirección, si deseas puedes intentar en otra dirección.</string>
+    <string name="copy.list_from_a_lot_of_products">¿Deseas crear una lista con estos productos antes de continuar con el pedido?</string>
+
+
+    <string name="copy.add_all_products">Agregar todo</string>
+    <string name="copy.edit_list">Editar lista</string>
+    <string name="copy.name">Nombre</string>
+    <string name="copy.delete">Eliminar</string>
+    <string name="copy.see">Ver</string>
+    <string name="copy.hide">Ocultar</string>
+    <string name="copy.next">Siguiente</string>
+
+    <string name="copy.no_go_back">No, volver.</string>
+    <string name="copy.no_continue">No, continuar.</string>
+    <string name="copy.yes_sure">Sí, seguro.</string>
+    <string name="copy.ops">¡Oops!</string>
+    <string name="copy.go_back">Volver</string>
+
+
+    <string name="copy.title_country_selection">¡Aprovecha\ntodo el potencial de Rappi!</string>
+    <string name="copy.message_country_selection">Acepta el uso de GPS para mostrarte las tiendas\nmás cercanas y poder entregarte en minutos.</string>
+
+
+    <string name="copy.need_help">¿Necesitas ayuda?</string>
+    <string name="copy.call_us">Chatéanos - 24hrs</string>
+
+
+    <string name="home.rappi_prime_subscribe">¡Suscríbete!</string>
+
+    <string name="prime.yes_order">Si, hacer pedido.</string>
+    <string name="prime.basket_free_delivery">¡Domicilio gratis!</string>
+    <string name="prime_not.delivery_cost">Costo de domicilio con </string>
+    <string name="prime.delivery_first">Envíos </string>
+    <string name="prime.unlimited_second">ilimitados </string>
+    <string name="prime.no_cost_third">sin costo con Prime</string>
+    <string name="prime.basket_remaining_amount_free_delivery_first">Agrega </string>
+    <string name="prime.basket_remaining_amount_free_delivery_second"> más para envío gratis</string>
+    <string name="prime_not.subscribe_here">¡Lo quiero!</string>
+
+    <string name="prime.days_to_finish_one">En </string>
+    <string name="prime.days_to_finish_two">%1$s días</string>
+    <string name="prime.days_to_finish_three"> terminará tu suscripción</string>
+
+    <string name="prime.days_to_renew_one">Tu suscripción será renovada en </string>
+    <string name="prime.days_to_renew_two">%1$s días</string>
+
+    <string name="prime_cancel.title">Cancelar RappiPrime</string>
+    <string name="prime_cancel.state">RappiPrime está activo</string>
+    <string name="prime_cancel.delete_successful">RappiPrime cancelado exitosamente</string>
+    <string name="prime_cancel.delete_error">RappiPrime no se pudo cancelar</string>
+    <string name="prime_cancel.confirmation">¿Estás seguro que quieres cancelar RappiPrime?</string>
+    <string name="prime_cancel.button_primary_text">Cancelar mi suscripción</string>
+    <string name="prime_cancel.button_secondary_text">Salir sin cancelar</string>
+    <string name="prime_cancel.hint_text_other_reason">Cuéntanos qué hicimos mal</string>
+
+
+    <string name="prime_checkout.confirmation_cash">Beneficios de RappiPrime solo aplican con %1$s. ¿Estás seguro de que quieras pagar con %2$s?</string>
+    <string name="prime_checkout.confirmation_credit_card">Tu orden tiene que superar %1$s para disfrutar de los beneficios de RappiPrime. ¿Deseas continuar?</string>
+
+    <string name="prime.confirmation_activate_title">¡Buenas noticias!</string>
+    <string name="prime.confirmation_activate_subtitle">Ahora tu suscripción de RappiPrime se renovará cada 30 días automáticamente. Tu próximo cargo se hará el %1$s. %2$s\n¿Nos autorizas renovar tu suscripción automáticamente?</string>
+
+    <string name="prime.title">Presentamos</string>
+
+    <string name="prime.button_subscribe_test">Prueba RappiPrime\n</string>
+    <string name="prime.button_subscribe_test_second">Gratis</string>
+    <string name="prime.button_subscribe_test_third"> por %1$s días</string>
+
+    <string name="prime_checkout.button_subscribe_test">Prueba</string>
+    <string name="prime_checkout.button_subscribe_test_second"> gratis %1$s días</string>
+    <string name="prime_checkout.button_subscribe_test_third"> y ahórrate</string>
+    <string name="prime_checkout.button_subscribe_test_fourd"> en este pedido</string>
+
+    <string name="prime.cancellation_subscription_tittle">Cancelar suscripción</string>
+    <string name="prime.cancellation_subscription_subtittle">¿Porqué quieres cancelar RappiPrime?</string>
+
+    <string name="gold.title_view">Tarjeta Rappi</string>
+    <string name="gold.title_apply">Aplica a Tarjeta de Crédito Rappi Colpatria</string>
+    <string name="gold.subtitle_apply">Y recibe los siguientes beneficios:</string>
+
+    <string name="gold.items_benefits_first_one">  ¡20% de descuento</string>
+    <string name="gold.items_benefits_first_two"> en todo Rappi! (hasta $150.000/mes) </string>
+    <string name="gold.items_benefits_second_one">  RappiPrime </string>
+    <string name="gold.items_benefits_second_two">Gratis</string>
+    <string name="gold.items_benefits_second_three"> por un año entero.</string>
+
+    <string name="gold.subtitle_enter_id">Te contactaremos una vez la inscribas  </string>
+    <string name="gold.title_card_rate">Cuota de manejo</string>
+    <string name="gold.citizenship_id">Cédula de ciudadanía</string>
+    <string name="gold.foreigner_id">Cédula de extranjería</string>
+    <string name="gold.apply">Aplicar</string>
+    <string name="gold.message_error">Ocurrió un error, intenta más tarde.</string>
+
+    <string name="gold_card_rate.items_first_one">  Clásica:</string>
+    <string name="gold_card_rate.items_first_two">  $21.300 Mes</string>
+    <string name="gold_card_rate.items_second_one">  Oro:</string>
+    <string name="gold_card_rate.items_second_two"> $24.800 Mes</string>
+
+    <string name="copy.get_into_account">Ingresa a tu cuenta</string>
+    <string name="copy.you_are_in">Estás en</string>
+    <string name="copy.change_section">Cambiar sección</string>
+    <string name="copy.change_section_in_market">Cambiar de sección a:</string>
+
+
+    <string name="format.user_name">%1$s,</string>
+    <string name="format.coma_separator">, %1$s</string>
+
+    <string name="copy.show_categories">Ver categorías</string>
+    <string name="copy.orders_history_lists">Mis listas y pedidos</string>
+    <string name="copy.credit_cards">Tarjeta de crédito</string>
+    <string name="copy.card_number">Número de tarjeta</string>
+    <string name="copy.card_expiration_date">Fecha (MM/AA)</string>
+    <string name="copy.lists">Listas</string>
+    <string name="copy.referred_code">Refiere y gana $$$</string>
+    <string name="copy.enter_coupon">Ingresa cupón</string>
+    <string name="copy.change_address">Cambiar dirección</string>
+    <string name="copy.contact_us">Contáctanos</string>
+    <string name="copy.help_faq">Centro de ayuda</string>
+
+    <string name="copy.welcome">¡Bienvenido!</string>
+    <string name="copy.welcome_to">Bienvenido a</string>
+
+    <string name="copy.confirm">Confirmar</string>
+
+    <string name="copy.search">Buscar</string>
+    <string name="copy.search_what_you_want">Busca lo que quieras</string>
+    <string name="home.know_what_you_want">¿Qué quieres?</string>
+    <string name="copy.search_your_rappicode">Ingresa tu código</string>
+    <string name="copy.search_in_rappi">Buscar en Rappi</string>
+    <string name="copy.find_a_lot_of_products">Encuentra miles de productos</string>
+    <string name="copy.lock_store">La tienda está bloqueada</string>
+
+    <string name="copy.title_my_addresses">¿A dónde quieres pedir?</string>
+
+    <string name="copy.title_credit_cards">Mis tarjetas</string>
+    <string name="copy.add_credit_cards">Agrega nueva tarjeta</string>
+
+    <string name="copy.confirm_address">Estás seguro que quieres\nque llevemos tu pedido a:</string>
+
+    <string name="copy.order_status">Estado del pedido</string>
+    <string name="copy.products_summary">Resumen de productos</string>
+    <string name="copy.take_your_order">Tomó tu pedido</string>
+    <string name="copy.any_moment">En cualquier momento</string>
+
+    <string name="copy.outside">Estoy afuera</string>
+
+    <string name="copy.category_example">Conservas</string>
+    <string name="copy.write_tag_name">Dale nombre al tag</string>
+
+    <string name="copy.use">Usar</string>
+    <string name="copy.test_address">Calle 134a # 7 – 26</string>
+    <string name="hint.additional_information">Timbrar 3 veces</string>
+
+    <string name="copy.product_detail_add_to_list">+ Añadir a una lista</string>
+
+    <string name="copy.add_to_list_button">AGREGAR</string>
+    <string name="copy.add_to_list_add_this_product">Agregar este producto a:</string>
+    <string name="message.add_to_list_success">Elemento agregado exitosamente a esta lista.</string>
+    <string name="message.add_to_list_repeated_item">Este elemento ya está agregado en las listas seleccionadas.</string>
+    <string name="message.add_to_list_empty_array">Primero tienes que seleccionar una lista.</string>
+    <string name="message.check_list_amounts">No olvides editar las cantidades de tu lista</string>
+
+    <string name="copy.survey_take_order">Tomó tu pedido</string>
+    <string name="copy.survey_rate_the_service">Califica el servicio</string>
+    <string name="copy.survey_message_warning">Nunca más te asignaremos\nun Rappi que hayas calificado\ncon 3 estrellas o menos</string>
+    <string name="copy.survey_message_warning_rate">Primero tienes que asignar un puntaje a nuestro Rappi</string>
+    <string name="copy.survey_rate_service">Califica el servicio</string>
+    <string name="copy.survey_next">SIGUIENTE</string>
+    <string name="copy.survey_send">ENVIAR</string>
+    <string name="copy.survey_awesome">Me encantó</string>
+    <string name="copy.survey_disappointed">Me fue regular</string>
+    <string name="copy.survey_hint_comment">Comentario</string>
+    <string name="copy.survey_what_was_your_problem">¿Cuál fue el problema?</string>
+    <string name="copy.survey_what_do_you_like">¿Qué te encantó?</string>
+    <string name="copy.quantity">Cantidad</string>
+
+    <string name="copy.map_where_to">¿A dónde quieres que\nllevemos tu pedido?</string>
+
+    <!--Pay-->
+    <string name="pay.message_user_blocked">En este momento RappiPay no está disponible</string>
+    <string name="pay.grin.qr">ongrin</string>
+    <string name="pay.yellow.qr">ylw</string>
+
+    <!-- Checkout -->
+    <string name="checkout.place_order">Enviar pedido</string>
+    <string name="checkout.delivery_address">Dirección de envío:</string>
+    <string name="checkout.payment_method">Método de pago</string>
+    <string name="checkout.select">Selecciona</string>
+    <string name="checkout.use_rappi_credits">RappiCréditos</string>
+    <string name="checkout.use_rappi_pay">RappiPay</string>
+    <string name="checkout.cost_products">Costo de los productos:</string>
+    <string name="checkout.delivery_cost">Costo del domicilio:</string>
+    <string name="checkout.service_fee">Cargo de servicio:</string>
+    <string name="checkout.title_delivery_cost">Costo del domicilio</string>
+    <string name="checkout.tip">Propina:</string>
+    <string name="checkout.coupon">Cupón:</string>
+    <string name="checkout.discount">Descuento:</string>
+    <string name="checkout.title_coupon">Cupón</string>
+
+    <string name="copy.tip_example">$8.000</string>
+    <string name="copy.tip_example_two">Extra %1$s</string>
+    <string name="copy.tip_example_three">$0</string>
+    <string name="copy.money_sign">$ %1$s</string>
+
+    <string name="copy.choose_a_city">Selecciona tu ciudad</string>
+
+    <string name="copy.choose_other_country"><u>Pedir a <b>otro país</b></u></string>
+
+    <string name="copy.chat_support">Chatear con Soporte</string>
+
+    <string name="copy.unzipping_database">Descomprimiendo…</string>
+    <string name="copy.populating_database">Finalizando…</string>
+    <string name="copy.schedule_percentage">%1$s%%</string>
+
+    <string name="copy.tweak_location_part_1">¿Está bien el mapa?</string>
+    <string name="copy.tweak_location_part_2">Refina tu ubicación</string>
+
+    <string name="copy.wiki_woman">Wiki Mujeres</string>
+    <string name="copy.donation">Donación</string>
+    <string name="copy.wiki_woman_title">Emprendedora</string>
+    <string name="copy.write_your_product">¡Hola! Escribe aquí lo que necesitas</string>
+    <string name="copy.write_your_market">¡Hola! Escribe aquí tu mercado</string>
+
+    <string name="copy.write_your_order">Escribe tu pedido</string>
+    <string name="copy.something_more_from_this_restaurant">¿Quieres algo más de este restaurante?</string>
+    <string name="copy.show_menu">Ver menú</string>
+    <string name="copy.add">Agregar</string>
+
+    <string name="copy.delivery_cost">* Costo de domicilio %1$s</string>
+    <string name="copy.additional_restaurant_cost">+ 10% del valor de la orden</string>
+    <string name="copy.delivery_time">Entrega estimada</string>
+    <string name="copy.estimated_time_to_delivery_restaurant">Tiempo de entrega: %1$s</string>
+    <string name="copy.estimated_time_to_delivery_restaurant_or_free">Tiempo de entrega: %1$s o gratis</string>
+
+
+    <string name="copy.restaurants">Restaurantes</string>
+    <string name="copy.super_market">Supermercado</string>
+    <string name="copy.hyper_market">Hipermercado</string>
+    <string name="copy.pharmacy">Farmacia</string>
+
+    <string name="copy.courier">RappiFavor</string>
+    <string name="format.menu_restaurant">Menú %1$s:</string>
+    <string name="base.max_length_characters">Sólo puedes escribir 512 caracteres</string>
+
+    <string name="copy.email">E-mail</string>
+    <string name="copy.reason_request_phone">Para poder actualizarte sobre el estado de tu pedido, quisiéramos contactarte a tu celular.</string>
+
+    <string name="copy.cellphone">Celular</string>
+    <string name="hint.phone_number">Ej: 300*****</string>
+
+    <string name="copy.incomplete_payment">Pago incompleto</string>
+
+    <string name="copy.debt_title">Ocurrió un error al tramitar tu última compra con tarjeta de crédito en Rappi</string>
+    <string name="copy.debt_subtitle">Antes de que puedas comprar otra vez, debes pagar el monto pendiente de tu última compra.</string>
+    <string name="copy.debt_select_credit_card">Seleccionar tarjeta:</string>
+    <string name="copy.debt_order_detail">Detalle del pedido:</string>
+    <string name="copy.debt_order_date">Pedido: %1$s</string>
+    <string name="copy.debt_at_least_one_credit_card">Debes tener al menos una tarjeta de crédito</string>
+    <string name="copy.debt_payment_successful">Tus deudas fueron pagadas exitosamente</string>
+    <string name="copy.debt_payment_failed">Ocurrió un problema al intentar pagar tus deudas</string>
+    <string name="copy.current_orders">Pedidos en curso</string>
+    <string name="copy.current_orders_title">Puedes hacer varios\npedidos a la vez</string>
+    <string name="copy.current_order_type">Pedido de: %1$s</string>
+    <string name="copy.current_orders_info">%1$s - %2$s productos</string>
+    <string name="copy.current_orders_schedule">Pedido programado para:</string>
+
+    <string name="format.see_more_options">Ver %1$s</string>
+    <string name="copy.show_restaurants">Ver restaurantes</string>
+    <string name="copy.rappi_lunch">RappiLunch</string>
+    <string name="copy.show_dishes">Ver platos</string>
+
+    <string name="copy.must_select_address_option">Debes seleccionar una dirección de la lista para poder continuar</string>
+
+
+    <string name="copy.empty_result_restaurants_search">Lo sentimos, no encontramos resultados de tu búsqueda.</string>
+
+
+    <string name="copy.add_address_to_continue">Agrega una dirección para\npoder continuar</string>
+
+    <string name="copy.share">¡Comparte!</string>
+    <string name="copy.thanks_for_share">¡Gracias\npor compartir!</string>
+    <string name="copy.share_enjoy_order">Ya puedes continuar con tu pedido\n¡Disfrútalo!</string>
+    <string name="copy.try_share_again">Puedes volver a intentarlo.\n¡No pierdas esta oportunidad!</string>
+    <string name="copy.share_description">Compártenos en la red social que\ndesees para poder obtener el\nproducto gratis</string>
+    <string name="facebook_share_link">https://play.google.com/store/apps/details?id=com.grability.rappi Revolucionando la manera de comprar</string>
+    <string name="twitter_share_link">https://play.google.com/store/apps/details?id=com.grability.rappi #Corremosporti #Rappi Revolucionando la manera de comprar</string>
+
+    <string name="format.phone_number_with_code">(+%1$s) %2$s</string>
+    <string name="copy.eta_placeholder">…</string>
+
+
+    <string name="title.activity_search">Buscar productos</string>
+
+    <!--New Home Search-->
+    <string name="search_home.suggestions">Sugerencias</string>
+    <string name="search_home.where_do_you_want_to_order">¿A dónde quieres pedir?</string>
+    <string name="search_home.previous_orders">Mis pedidos anteriores</string>
+    <string name="search_home.what_do_you_want">¿Qué producto quieres?</string>
+    <string name="search_home.empty_search">Lo sentimos, no encontramos resultados de tu búsqueda.</string>
+    <string name="copy.title_stores_types">Resultados \&apos;%1$s\&apos;</string>
+    <string name="copy.title_stores_types_previous">Búsquedas recientes</string>
+    <string name="copy.subtitle_stores_types">Buscar %1$s en %2$s</string>
+    <string-array name="search_home_mocked_suggestions">
+        <item>Supermercado</item>
+        <item>Hipermercado</item>
+        <item>Farmacia</item>
+    </string-array>
+    <string-array name="search_home_mocked_hints">
+        <item>Supermercado</item>
+        <item>Hipermercado</item>
+        <item>Farmacia</item>
+    </string-array>
+
+    <string name="copy.to_activate_this_section">para activar\nesta sección</string>
+    <string name="copy.still_need">Te faltan:</string>
+
+    <string name="order_in_progress.order_creation_time">Pedido realizado: %1$s</string>
+    <string name="order_in_progress.add_products">Agrega productos</string>
+    <string name="order_in_progress.need_help">Necesito ayuda</string>
+    <string name="order_in_progress.call_your_rappi">Llama a Tu Rappi</string>
+    <string name="order_in_progress.call_support">Llama a Soporte</string>
+    <string name="order_in_progress.several_orders">Ahora puedes hacer varios pedidos a la vez :)</string>
+    <string name="order_in_progress.keep_buying">Seguir comprando</string>
+    <string name="order_in_progress.current_orders">Pedidos en curso</string>
+    <string name="order_in_progress.estimated_delivery">Entrega apróx: %1$s</string>
+    <string name="order_in_progress.label_order_status">Estado:\n</string>
+
+    <string name="order_in_progress.tooltip_message">¡Acelera tu pedido!\nMejora tu propina.</string>
+    <string name="new_order.already_on_the_route">Tu Rappi está corriendo hacia ti</string>
+    <string name="new_order.do_you_need_something_else">¿Necesitas algo más?</string>
+    <string name="new_order.create_new_order">Hacer nuevo pedido</string>
+
+    <string name="copy.check_your_age">Verifica tu edad</string>
+    <string name="copy.are_you_an_adult">¿Eres mayor de edad?</string>
+    <string name="copy.other_category">Otros</string>
+
+    <string name="waiting.finding_storekeeper">Estamos buscando\nun Rappi para tu pedido</string>
+    <string name="waiting.cancel_order"><u>Cancelar pedido</u></string>
+
+    <string name="waiting.picking_products">Tu personal Shooper\nestá mercando por ti</string>
+
+    <string name="waiting.your_personal_shopper">Tu Personal Shopper</string>
+
+    <string name="waiting.edit_order">Editar pedido</string>
+
+    <string name="order_summary.order_summary">Resumen de la orden</string>
+    <string name="order_summary.order_received">Hemos recibido\ntu pedido</string>
+
+    <string name="order_summary.load_error">Resumen de la orden no disponible en estos momentos</string>
+    <string name="order_summary.start_time">Inicio</string>
+    <string name="order_summary.end_time">Entrega</string>
+
+
+    <string name="orders_list_activity.toolbar_title">Listas y pedidos</string>
+    <string name="orders_list_activity.my_list_tab">Mis listas</string>
+    <string name="orders_list_activity.my_order_tab">Mis pedidos</string>
+    <string name="orders_list_activity.products_total_format">%1$s Productos • Total %2$s</string>
+    <string name="order_history.total_products_format">Total %1$s • %2$s Productos</string>
+    <string name="order_history.total_products_new_format">Total %1$s</string>
+    <string name="orders_list_activity.create_list">Crear una lista</string>
+    <string name="orders_list_activity.successfully_added_list">Lista añadida exitosamente a la canasta</string>
+    <string name="orders_list_activity.partially_added_list">Lista añadida parcialmente a la canasta</string>
+    <string name="orders_list_activity.successfully_added_products">Productos añadidos exitosamente a la canasta</string>
+    <string name="orders_list_activity.successfully_list_deleted">Lista(s) eliminada(s) exitosamente</string>
+    <string name="orders_list_activity.error_list_deleted">Listas(s) no eliminada(s)</string>
+    <string name="orders_list_activity.items_selected">  Seleccionado(s)</string>
+    <string name="orders_list_activity.items_count_selected">(%1$s)</string>
+    <string name="orders_list_activity.see_other_stores">Ver listas de otras secciones</string>
+    <string name="list_detail_activity.not_available_products">No disponible</string>
+    <string name="list_detail_activity.menu_delete">Borrar lista</string>
+    <string name="list_detail_activity.total">Total:  </string>
+
+    <string name="restaurant.plus_symbol">+</string>
+    <string name="restaurant.minus_symbol">-</string>
+    <string name="restaurant.cancel_search">Cancelar</string>
+
+    <string name="search_restaurant.copy_restaurants">Restaurantes</string>
+    <string name="search_restaurant.copy_products">Productos</string>
+
+    <string name="weight_activity.description_question">¿Cómo lo quieres?</string>
+    <string name="weight_activity.additional_comments_hint">Escribe comentarios adicionales</string>
+    <string name="weight_activity.variation_copy">El precio puede variar según el peso final del producto</string>
+    <string name="copy.total">Total</string>
+
+    <string name="order_in_progress.time_ended">Tu pedido llegará en\ncualquier momento</string>
+    <string name="order_in_progress.your_order_is_now">Tu pedido ahora es</string>
+    <string name="order_in_progress.free">totalmente gratis</string>
+    <string name="coupon.remove_current_coupon">Eliminar cupón actual</string>
+
+    <string name="toppings.edit">Editar</string>
+    <string name="toppings.order_description">Esta orden tiene adiciones en tus productos</string>
+    <string name="toppings.category_min">Min. %1$s</string>
+    <string name="toppings.read_more">.\u0020Leer más</string>
+    <string name="toppings.category_min_error">Hacen falta adiciones en %1$s</string>
+    <string name="toppings.category_max_error">%1$s Permite máximo %2$s adiciones</string>
+    <string name="shark_toolbar_message">¿Un último antojo?</string>
+
+    <string name="schedule_order.notification_message">Te notificaremos cuando tu Personal Shopper esté seleccionando tus productos</string>
+
+    <string name="basket.schedule">Programado: %1$s %2$s - %3$s</string>
+    <string name="basket.delivery_cost">Domicilio %1$s</string>
+    <string name="basket.order_number">Pedido %1$d: </string>
+    <string name="basket.created_orders_count">Se van a crear %1$d pedidos</string>
+    <string name="basket.max_product">Puedes agregar máximo %1$d unidades de este producto</string>
+    <string name="basket.not_available">No disponible en este horario</string>
+    <string name="copy.your_rappi">Tu Rappi</string>
+    <string name="copy.your_shopper">Tu Personal Shopper</string>
+
+
+    <string name="lists_store.header_text">Listas de %1$s</string>
+    <string name="lists_store.dialog_header_text">Ver listas y pedidos de:</string>
+    <string name="orders_history_store.header_text">Pedidos de %1$s</string>
+
+    <string name="payment_in_advance.error_message">Ocurrió un error con la tarjeta que tienes registrada</string>
+    <string name="payment_in_advance.payment_method">Método de pago</string>
+    <string name="payment_in_advance.add_payment_method">Agregar tarjeta</string>
+    <string name="payment_in_advance.credit_card_dummy">XXXX-%1$s</string>
+    <string name="payment_in_advance.cash">Efectivo</string>
+    <string name="payment_in_advance.debit_card">Débito - Datáfono</string>
+
+    <string name="grid_restaurant_fragment.photo_view">Vista en fotos</string>
+    <string name="grid_restaurant_fragment.list_view">Vista en listas</string>
+
+    <string name="copy.close">Cerrar</string>
+
+    <string name="copy_email_placeholder"><u>%1$s</u></string>
+    <string name="copy_phone_placeholder"><u>%1$s</u></string>
+    <string name="copy_attention_time">Horario de atención\n%1$s:</string>
+
+
+    <string name="donation.copy_thanks">Gracias</string>
+    <string name="donation.copy_your_donation">por tu donación</string>
+    <string name="donation.copy_message">Recibirás un E-mail con más\ninstrucciones de tu donación</string>
+    <string name="donation.copy_toolbar">Teletón en manos de todos</string>
+
+    <string name="error.add_to_list">Lo sentimos, actualmente no podemos añadir tu lista, intenta más tarde.</string>
+    <string name="error.zendesk">Lo sentimos, actualmente no podemos procesar tu solicitud, intenta más tarde.</string>
+
+    <string name="copy.previous_orders">Mis pedidos anteriores</string>
+    <string name="copy.customize_product">Personalizar</string>
+
+    <!-- Market Dialog-->
+    <string name="market_dialog.title">¿Qué tienda prefieres?</string>
+    <string name="market_dialog.schedule_copy">Programar para</string>
+    <string name="categories_bottom_sheet.title">Pasillos</string>
+
+    <!-- New Market Home -->
+    <string name="market_home.copy_closed">Cerrado</string>
+
+    <!-- New Restaurant -->
+    <string name="product_toppings.additional_instructions">Comentarios o instrucciones</string>
+    <string name="product_toppings.additional_instructions_info">En este campo no se aceptan modificaciones que generan valor adicional en la factura. Chatea con tu Rappi si quieres cambios.</string>
+    <string name="product_toppins.comments">Comentarios</string>
+    <string name="product_toppings.min_error">%1$s necesita que selecciones al menos %2$d opciones</string>
+    <string name="product_toppings.max_error">No puedes seleccionar más de %1$d opciones en %2$s</string>
+    <string name="product_toppings.next"><![CDATA[Siguiente]]></string>
+    <string name="product_toppings.add">Agregar</string>
+    <string name="product_toppings.edit">Editar</string>
+    <string name="show_basket">Ver canasta</string>
+
+    <string name="coupon_home.redeem">Ingresar</string>
+    <string name="donation.not_now">No, gracias</string>
+    <string name="donation.share_thought_social_networks">Comparte en tus redes sociales y cámbiale la vida a más personas:</string>
+    <string name="donation.help_us">¡Ayúdanos a cumplir la meta!</string>
+    <string name="donation.your_donation">Tu aporte</string>
+    <string name="donation.we_have_received">Hemos recibido</string>
+
+    <string name="country_selection.login">Ingresar</string>
+    <string name="country_selection.register">Registro</string>
+    <string name="country_selection.colombia">Colombia</string>
+    <string name="country_selection.mexico">México</string>
+    <string name="country_selection.brazil">Brasil</string>
+    <string name="country_selection.argentina">Argentina</string>
+    <string name="country_selection.chile">Chile</string>
+    <string name="country_selection.uruguay">Uruguay</string>
+    <string name="country_selection.ecuador">Ecuador</string>
+    <string name="country_selection.costa_rica">Costa Rica</string>
+    <string name="base.peru">Perú</string>
+    <string name="country_selection.terms_and_conditions">Acepto los Términos y Condiciones y Políticas de Privacidad (Habeas Data)</string>
+
+    <string name="coupon.congratulations">¡Felicitaciones!</string>
+    <string name="coupon.message_redemption_successfully">Tu cupón ha sido redimido</string>
+    <string name="coupon.message_redemption_successful_action">OK entendido :)</string>
+    <string name="coupon.alert_change_store">El cupón ingresado pertenece a otra tienda. Si lo deseas redimir, te llevará a otra tienda. ¿Deseas redimirlo?</string>
+
+    <string name="home.be_storekeeper_apply">Aplicar</string>
+    <string name="home.be_storekeeper_message">Maneja tu propio tiempo, sé tu propio jefe y gana dinero extra.</string>
+    <string name="home.need_help_message">¿Tuviste un problema?\n¡No importa!, Rappi te responde.</string>
+    <string name="home.request_help">¡Ayuda!</string>
+    <string name="splash.you_are_going_to_order_to">¿A dónde\nquieres\npedir hoy?</string>
+    <string name="splash.change_address">Cambiar</string>
+    <string name="splash.rappi_copyright">© 2017 RAPPI. All Rights Reserved.</string>
+    <string name="splash.order_to_another_address">Pedir a otra dirección</string>
+    <string name="home.change_address">No, cambiar dirección</string>
+    <string name="home.yes_keep_shopping">Sí, continuar comprando</string>
+    <string name="home.address_confirmation_message">¿Estás seguro que quieres pedir a esta dirección?</string>
+    <string name="coupon.enter_code">Ingresar código</string>
+    <string name="coupon.coupon_code">Código de cupón</string>
+    <string name="copy.see_details">Ver detalles</string>
+    <string name="home.copy_closed">Cerrado</string>
+
+    <!-- New Addresses -->
+    <string name="address_list.add_new_address">Agrega nueva dirección</string>
+    <string name="address_list.delivery_address">Entrega a</string>
+    <string name="address_list.other_addresses">Otras direcciones</string>
+    <string name="address_list.add_address_intro">Necesitamos tu dirección de entrega para mostrarte las tiendas más cercanas</string>
+    <string name="address_list.remove_address">Eliminar dirección</string>
+    <string name="address_list.remove_address_confirmation">¿Estás seguro que quieres \neliminar esta dirección?</string>
+
+    <string name="new_address.add_address">Agrega dirección</string>
+    <string name="new_address.city">Ciudad</string>
+    <string name="new_address.add_new_address">Agrega nueva dirección</string>
+    <string name="new_address.write_address">Ingresa tu dirección</string>
+    <string name="new_address.address_description">Piso / Oficina / Depto / Apto</string>
+    <string name="new_address.address_description_hint">Ej: Oficina 304</string>
+    <string name="new_address.save_address">Guardar</string>
+    <string name="new_address.name_of_tag">Escribe el nombre de tu tag</string>
+    <string name="new_address.name_tag">Nombre tag</string>
+    <string name="new_address.tag_description">Dale nuevo nombre al tag de tu dirección</string>
+    <string name="new_address.not_located">No encontramos tu dirección. Por favor \nubícala en el mapa.</string>
+    <string name="new_address.locate_on_map">Ubícate en el mapa</string>
+    <string name="new_address.locate_on_map_hint">Ubica o escribe la dirección de entrega</string>
+    <string name="new_address.tooltip_hint">Ubica el pin en el\npunto de entrega</string>
+    <string name="new_address.place_without_location">No pudimos encontrar la ubicación de este lugar.</string>
+    <string name="new_address.confirm_address">Confirma esta dirección</string>
+    <string name="out_of_coverage.uncovered_area">Lo sentimos,\naún no tenemos\ncobertura\nen tu zona.</string>
+    <string name="out_of_coverage.add_other_address">Agrega otra dirección</string>
+    <string name="out_of_coverage.show_coverage_zones">Ver zonas de cobertura</string>
+    <string name="out_of_coverage.country_coverage">Nuestras zonas\nde cobertura\nen</string>
+    <string name="out_of_coverage.coverage_zones">Zonas de cobertura</string>
+    <string name="out_of_coverage.coverage_on_zone">Cobertura - %1$s</string>
+
+    <string name="copy.closed_store">Tienda no disponible en este momento</string>
+    <string name="market.see_all_products">Ver todos los productos</string>
+    <string name="market_walk_corridor">Recorrer pasillos</string>
+    <string name="market.more_products">Ver pasillos</string>
+    <string name="market.more_products_two_lines">Ver\npasillos</string>
+
+    <string name="secondary_store.unavailable">Esta tienda no está disponible en este momento</string>
+    <string name="secondary_store.continue">Continuar</string>
+
+    <!--Autodispatching-->
+    <string name="notification.default_title">Tu Rappi \n necesita ayuda</string>
+    <string name="notification.title_delayed_storekeeper">Tu Rappi ha\nsufrido un imprevisto</string>
+    <string name="notification.title_working_for_assigning_storekeeper">Aún estamos trabajando\npara asignarte un Rappi</string>
+    <string name="notification.label_reason">Motivo:</string>
+    <string name="notification.call_to_storekeeper">Llama a Tu Rappi</string>
+    <string name="notification.chat_with_storekeeper">Chatea con tu Rappi</string>
+    <string name="notification.copy_reason_of_delay">No hay leche Alpina deslactosada en la tienda de tu barrio</string>
+    <string name="notification.accept">Aceptar</string>
+    <string name="notification.label_searching_storekeeper">Estamos trabajando para asignarte\nun nuevo Rappi</string>
+    <string name="notification.copy_rappicredit_added">$5000</string>
+    <string name="notification.keep_waiting">Seguir esperando</string>
+    <string name="notification.cancel_order_with_clarification">Cancelar*</string>
+    <string name="notification.cancel_order_without_clarification">Cancelar</string>
+    <string name="notification.copy_rappicredit_added_apologies">Disculpa las molestias, hemos\nabonado a tu RappiCrédito:</string>
+    <string name="notification.copy_no_storekeeper_apologies">Perdón por las molestias</string>
+    <string name="notification.copy_clarification_cancel_order">*Recibirás el abono a tu cuenta de cualquier forma</string>
+    <string name="notification.copy_chat_with_support">Chatea con Soporte</string>
+    <string name="notification.cancellation_title">Cancela el pedido</string>
+    <string name="notification.cancellation_subtitle">Para cancelar, selecciona un motivo.</string>
+    <string name="notification_cancellation_copy_other_reason">Otra razón</string>
+    <string name="notification_cancellation_default_order_state">Tu Rappi está corriendo hacia ti</string>
+    <string name="notification.copy_title_other_reason">¿Qué problema tuviste?</string>
+    <string name="notification.hint_problem">Problema</string>
+    <string name="notification.send_report">Enviar reporte</string>
+    <string name="notification_title_storekeeper_is_coming">Tu Rappi está\nen camino</string>
+    <string name="notification.label_order_should_arrive_in">Tu pedido llegará en:</string>
+    <string name="notification.copy_expected_time_of_arrival">25 min</string>
+    <string name="notification.expected_time_of_arrival">%1$s min</string>
+    <string name="notification.copy_discount_added_apologies">Perdón por las molestias, en este pedido \ntendrás un descuento de:</string>
+    <string name="notification.discount_amount_applied">$ %1$s</string>
+    <string name="notification.view_order">Ver pedido</string>
+    <string name="notification.copy_clarification_cancel_order_without_penalty">Puedes cancelar sin penalidad</string>
+    <string name="notification.title_cancellation_confirmation">¿Estás seguro que quieres cancelar el pedido?</string>
+    <string name="notification.yes_cancel_order">Sí, deseo cancelar.</string>
+    <string name="notification.continue_order">No, continuar.</string>
+    <string name="notification.cancellation_requested_title">¿Solicitaste cancelar\ntu pedido?</string>
+    <string name="notification.continue_and_bring_order">No deseo cancelar, tráeme el pedido.</string>
+    <string name="notification.title_cancellation_aborted">Tu pedido se entregará\nnormalmente</string>
+
+    <string name="zendesk_article.dialog_title">Permisos de aplicación</string>
+    <string name="zendesk_article.dialog_message">Para atenderte mejor por nuestro chat, permite que Rappi te notifique sobre mensajes nuevos.</string>
+
+    <string name="gps.request_gps_address">Por favor activa la ubicación de tu GPS para mejorar la precisión al guardar tu dirección</string>
+
+    <!--New Eta-->
+    <string name="new_eta.estimated_delivery">Entrega estimada:</string>
+    <string name="new_eta.resume">Resumen</string>
+    <string name="new_eta.help">Ayuda</string>
+    <string name="new_eta.cancel">Cancela el pedido</string>
+    <string name="new_eta.call">Llamar</string>
+    <string name="new_eta.chat">Chatea con tu Rappi</string>
+
+    <string name="new_eta.detail">Ver detalles</string>
+    <string name="new_eta.hide_detail">Ocultar</string>
+    <string name="new_eta.total">Total: %1$s</string>
+    <string name="new_eta.total_unformatted">Total: </string>
+    <string name="new_eta.payment_method">Método de pago </string>
+    <string name="new_eta.show_summary">Ver resumen</string>
+    <string name="new_eta.call_to_support">¿Prefieres hablar?</string>
+    <string name="new_eta.call_us">Llámanos</string>
+
+    <string name="new_eta.cash">Efectivo</string>
+    <string name="new_eta.credit_card">Tarjeta de crédito</string>
+    <string name="new_eta.debit_card">Tarjeta de crédito</string>
+    <string name="new_eta.product_removed">Producto\neliminado</string>
+    <string name="new_eta.more_info">*Más info*</string>
+
+    <string name="copy.x">X</string>
+    <string name="copy.address_delivery">Tu pedido será enviado a:</string>
+    <string name="copy.slide_to_cancel">Desliza para cancelar</string>
+    <string name="copy.some_comment">¿Tienes un comentario?</string>
+
+    <!-- Notification Dynamic rate -->
+    <string name="dynamic_rate.notification_title">Nuevo costo del domicilio</string>
+    <string name="dynamic_rate.notification_subtitle">El costo de domicilio\nha cambiado</string>
+    <string name="dynamic_rate.agree">¡Acepto y quiero pedir ya!</string>
+
+    <!--Country Selection-->
+    <string name="country.brazil">Brasil</string>
+
+    <!--Loading Market-->
+    <string name="copy.loading_market_message">%1$s, estamos\norganizando tu tienda</string>
+    <string name="copy.loading_progress">%1$s %</string>
+    <string name="copy.order_line">Línea de pedidos</string>
+    <string name="copy.phone_market">Haz tu mercado por teléfono</string>
+
+    <!--Referral Card-->
+    <string name="referral.refer_and_win">Refiere y gana</string>
+    <string name="referral.next_order">en tu próximo pedido</string>
+
+    <!--Orders Errors-->
+    <string name="orders.cant_qualify">No podemos calificar la orden en este momento, por favor intenta más tarde.</string>
+    <string name="orders.cancel">Tu orden fue cancelada</string>
+
+    <!--Push-->
+    <string name="push.new_messages">Nuevos mensajes</string>
+
+    <!--Share Referral-->
+    <string name="share_referral.others">Otros</string>
+
+    <!--OnBoarding-->
+    <string name="on_boarding.enter">Ingresa</string>
+    <string name="on_boarding.current_country">Estás en %1$s</string>
+    <string name="on_boarding.enter_question">¿Estás registrado con un E-mail?</string>
+    <string name="on_boarding.login_email_error">E-mail no registrado</string>
+    <string name="prime_cancel_by_other_reason.title">¿Por qué quieres cancelar?</string>
+    <string name="prime_cancel_by_other_reason.subtitle">Comentario</string>
+    <string name="prime_cancel_by_other_reason.hint">Escribe aquí</string>
+    <string name="prime_cancel_by_other_reason.button">Confirma tu cancelación</string>
+
+    <string name="home.welcome_message">Tu vida es más fácil con Rappi</string>
+    <string name="list_addresses.where_should_we_send_your_delivery">Hola %1$s,\n¿A dónde enviamos tu pedido?</string>
+    <string name="navigation_menu.edit_profile">Editar perfil</string>
+    <string name="navigation_menu.notification_center">Centro de notificaciones</string>
+    <string name="navigation_menu.billing_section">Datos de facturación</string>
+
+    <string name="inbox.read">Leer</string>
+    <string name="rate_order.rate_your_experience">Califica tu experiencia</string>
+    <string name="rate_order.need_help">Necesito ayuda</string>
+    <string name="rate_order.show_summary">Ver mi pedido</string>
+    <string name="rate_order.what_problem_did_you_have">¿Qué problema tuviste?</string>
+    <string name="rate_order.tell_us_how_we_can_improve">Cuéntanos ¿en que podemos mejorar?</string>
+    <string name="rate_order.additional_comments">Comentarios adicionales</string>
+    <string name="rate_order.send">Enviar</string>
+    <string name="rate_order.back">Volver</string>
+    <string name="rate_order.contact_support">Contactar Soporte</string>
+    <string name="rate_order.call_storekeeper">Llama a tu Rappi</string>
+
+
+    <string name="checkout.add_credit_card">+Añadir nueva tarjeta</string>
+
+    <string name="inbox.no_messages">Hoy no tenemos noticias\npara mostrarte</string>
+    <string name="inbox.news">Noticias</string>
+
+    <string name="navigation_menu.need_help">¿Necesitas ayuda?</string>
+    <string name="navigation_menu.call_support">Llama a Soporte</string>
+    <string name="navigation_menu.write_to_support">Escribe a Soporte</string>
+    <string name="navigation_menu.last_orders">Mis últimos pedidos</string>
+    <string name="navigation_menu.help_center">Centro de ayuda</string>
+    <string name="navigation_menu.history_center">Mi historial de Rappi</string>
+
+    <string name="navigation_menu.my_account">Mi cuenta</string>
+    <string name="navigation_menu.inbox_and_promotions">Inbox y promociones</string>
+    <string name="navigation_menu.coupon">Ingresa el cupón</string>
+    <string name="navigation_menu.coupon_only">Cupones</string>
+    <string name="navigation_menu.earn_referal">Gana RappiCréditos gratis</string>
+    <string name="navigation_menu.credit_cards">Tarjetas</string>
+    <string name="navigation_menu.addresses">Direcciones</string>
+    <string name="navigation_menu.language">Idioma</string>
+    <string name="navigation_menu.gold">Aplica a tarjeta Rappi</string>
+    <string name="navigation_menu.add_your_restaurant">Vincula tu restaurante</string>
+    <string name="navigation_menu.partner_rappi">Quiero ser aliado Rappi</string>
+    <string name="navigation_menu.partner_rt_rappi">Quiero ser Rappi</string>
+    <string name="navigation_menu.rappi_pay" translatable="false">RappiPay</string>
+    <string name="navigation_menu.billing_data">Datos de facturación</string>
+    <string name="navigation_menu.subscriptions_and_points">Membresías y puntos</string>
+    <string name="navigation_menu.logout">Cerrar sesión</string>
+    <string name="navigation_menu.logout_other_sessions">Cerrar otras sesiones</string>
+    <string name="navigation_menu.logout_other_sessions_successful">Otras sesiones cerradas satisfactoriamente</string>
+
+    <string name="navigation_menu.information">Información</string>
+    <string name="navigation_menu.rappi_prime">RappiPrime</string>
+
+    <string name="new_address.complete_address_information">Dinos tu dirección para descubrir tu zona:</string>
+    <string name="new_address.choose_address_to_continue">Selecciona una dirección de la lista para continuar</string>
+    <string name="new_address.set_the_delivery_point">Ubica el pin en el punto de entrega</string>
+
+    <string name="rappi_credits.title">RappiCréditos:</string>
+    <string name="rappi_credits.your_rappi_credits">Tus RappiCréditos</string>
+    <string name="rappi_credits.how_does_it_work">¿Cómo funciona?</string>
+    <string name="rappi_credits.earn_amount">Gana %1$s</string>
+    <string name="rappi_credits.share_code_and_win">Comparte tu código y gana</string>
+    <string name="rappi_credits.share">Comparte</string>
+    <string name="rappi_credits.record">Historial</string>
+    <string name="rappi_credits.expiration">Vence\n%1$s</string>
+
+    <string name="deep_links.resolving_deep_link">Iniciando link inteligente</string>
+
+    <string name="market.delivery_time">¡Tiempo de tu domicilio!</string>
+    <string name="market.delivery_time_information">Debido al número de productos, tu pedido puede tardar más de %1$s minutos.</string>
+
+    <string name="whim.understood">Entendido</string>
+
+    <string name="cards.select_installments">Selecciona número de %s</string>
+    <string name="copy.installments_info">Sin intereses</string>
+
+    <string name="new_address.select_your_city">Selecciona tu ciudad</string>
+
+    <string name="copy.check_card"><u>Verificación pendiente</u></string>
+
+    <string-array name="user_document_types">
+        <item>Cédula de ciudadanía</item>
+        <item>Cédula de extranjería</item>
+    </string-array>
+    <string name="copy.identification_number">Número</string>
+    <string name="copy.document_needed_for_product">Para agregar este producto debemos confirmar tu cédula y fecha de nacimiento</string>
+
+    <!-- PROMOTIONS -->
+    <string name="promotions_see_more">Ver más promociones</string>
+    <string name="promotions.title">Promociones y novedades</string>
+    <string name="promotions.available_later">Disponible más tarde</string>
+
+    <string name="cancellation.title">¿Cancelar pedido?</string>
+    <string name="cancellation.label_cost">Costo de cancelación</string>
+    <string name="cancellation.agree">Sí, deseo cancelar.</string>
+
+    <!-- POINTS EXITO/CARULLA -->
+    <string name="points.title">¿Acumulas puntos?</string>
+    <string name="points.add_points">Cargar puntos</string>
+    <string name="points.points_loaded">Los puntos de tu compra han sido cargados a tu tarjeta</string>
+    <string name="points.congratulations">¡Felicitaciones!</string>
+
+
+    <!--Market-->
+    <string name="home.instacart_save_discount">Ahorra %1$s</string>
+
+
+    <!-- Terms and conditions -->
+    <string name="terms_and_conditions.understood">Entendido</string>
+    <string name="terms.or_free">O gratis</string>
+    <string name="share">Comparte</string>
+
+
+    <string name="copy.cancelled">Cancelada</string>
+    <string name="copy.confirmed">Confirmado</string>
+    <string name="copy.rejected">Rechazado</string>
+    <string name="copy.in_progress">En progreso</string>
+    <string name="copy.finished">Finalizada</string>
+    <string name="copy.open">Abierto</string>
+    <string name="copy.pending">Pendiente</string>
+    <string name="copy.closed">Cerrado</string>
+    <string name="copy.solved">Resuelto</string>
+    <string name="copy.pending_review">Por calificar</string>
+    <string name="copy.created">Creado</string>
+    <string name="copy.in_store">En tienda</string>
+    <string name="copy.on_the_route">En camino</string>
+    <string name="copy.arrive">En destino</string>
+    <string name="copy.canceled">Cancelado</string>
+
+    <string name="copy.bicycle">Bicicleta</string>
+    <string name="copy.motorbike">Moto</string>
+    <string name="copy.car">Carro</string>
+
+    <string name="copy.month">Mes</string>
+    <string name="copy.monthly">Mensual</string>
+    <string name="copy.year">Año</string>
+    <string name="copy.yearly">Anual</string>
+
+    <!-- Toppings -->
+    <string name="toppings_mandatory">Obligatorio</string>
+
+    <string name="loyalty_title">Acumula puntos</string>
+    <string name="loyalty_subtitle">Ingresa tu número de identificación</string>
+    <string name="help_center.contact_support_help">¿Necesitas ayuda? Contáctanos</string>
+    <string name="help_center.error.general_error">No es posible acceder a la ayuda en estos momentos. Perdón por las molestias</string>
+    <string name="help_center.support_attach_image">Adjuntar imagen</string>
+    <string name="copy.you">Tú</string>
+
+    <string name="substitutions.has_x_pending_substitutions">Tienes %1$s sustituciones pendientes</string>
+    <string name="substitutions.has_pending_subtitutions">Ver sustituciones</string>
+
+    <!--TODO GABRIEL Move this in the rigth moment-->
+    <string name="whim.want_to_buy">Quiero comprar</string>
+
+
+    <string name="error.server">Hubo un error en nuestro servidor, por favor intenta otra vez en unos minutos.</string>
+    <string name="error.network">Revisa tu conexión a Internet</string>
+    <string name="error.processing_coupon_information">Ocurrió un error procesando el cupón</string>
+
+    <string name="error.empty_data">Debes completar los campos</string>
+    <string name="error.empty_fullname">Debes ingresar tu nombre completo</string>
+    <string name="error.incomplete_fullname">Debes ingresar tu nombre y apellido</string>
+    <string name="error.empty_password">Debes ingresar una contraseña con mínimo 6 caracteres</string>
+    <string name="error.empty_birthday">Debes ingresar tu fecha de nacimiento</string>
+    <string name="error.empty_current_password">Debes ingresar tu contraseña actual</string>
+    <string name="error_empty_identification">Debes ingresar tu número de identificación</string>
+
+    <string name="error.adding_creditcard">No es posible agregar esta tarjeta, por favor intenta con otra.</string>
+    <string name="error.delete_last_address">No puedes eliminar tu única dirección</string>
+    <string name="error.delete_current_address">No puedes eliminar tu dirección actual</string>
+
+
+    <string name="error.invalid_email">Formato de E-mail inválido</string>
+    <string name="error.invalid_store">Tienda inválida</string>
+
+    <string name="error.pin_error">Estás muy lejos de la dirección indicada, por favor revisa los datos ingresados.</string>
+
+
+    <string name="base.put_it_on_the_map">Ubícalo en el mapa</string>
+
+    <string name="base.buy_a_product">Adquirir un producto</string>
+    <string name="base.cost_explanation">Costo</string>
+
+
+    <string name="base.permission_rationale_skip">Omitir</string>
+    <string name="base.permission_rationale_accept">Aceptar</string>
+
+    <string name="home.view_x_more">Ver %1$s más</string>
+    <string name="home.view_more">Ver más</string>
+    <string name="home.do_you_like_rappi">¿Te gusta Rappi?</string>
+    <string name="home.rate_on_play_store">¡Gracias!\n\n¿Nos podrías dejar una calificación en el Play Store?</string>
+    <string name="mi_bodeguita">Mi Bodeguita</string>
+
+</resources>

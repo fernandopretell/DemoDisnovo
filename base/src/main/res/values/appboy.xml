@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string translatable="false" name="com_appboy_api_key">06892a24-e3cc-4d6f-a89d-ec75fe0e0a96</string>
+    <string translatable="false" name="com_appboy_custom_endpoint">regor.iad-03.braze.com</string>
+    <string translatable="false" name="com_appboy_firebase_cloud_messaging_sender_id">160040612199</string>
+    <drawable name="com_appboy_push_small_notification_icon">@drawable/ic_push</drawable>
+    <integer name="com_appboy_default_notification_accent_color">0xFFFF6250</integer>
+    <integer name="com_appboy_trigger_action_minimum_time_interval_seconds">2</integer>
+    <bool name="com_appboy_firebase_cloud_messaging_registration_enabled">true</bool>
+    <bool name="com_appboy_handle_push_deep_links_automatically">true</bool>
+    <bool name="com_appboy_push_wake_screen_for_notification_enabled">false</bool>-->
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="url_grability" translatable="false">https://v2.grability.rappi.com/</string>
+    <string name="url_micro_services" translatable="false">https://services.rappi.com/</string>
+    <string name="url_support" translatable="false">https://support-webapp.rappi.com</string>
+    <string name="edenred_host_dev" translatable="false">https://services.rappi.com.br/</string>
+
+
+
+
+    <string name="spreedly_base_url" translatable="false">https://core.spreedly.com</string>
+
+    <string name="dynamic_yield_base_url" translatable="false">https://dy-api.com/v2/collect/user/</string>
+
+    <string name="channel_firebase_order_eta" translatable="false">order_eta_%1$s/%2$s</string>
+    <string name="channel_firebase_order_change_payment" translatable="false">%1$s/orders/%2$s/modifications/payment_method_change</string>
+    <string name="channel_firebase_chat_db" translatable="false">%1$s/orders/%2$s/chats/%3$s</string>
+    <string name="channel_firebase_chat_unread" translatable="false">%1$s/orders/%2$s/chats/%3$s</string>
+    <string name="channel_firebase_chat_storage" translatable="false">orders/</string>
+    <string name="channel_firebase_support_live" translatable="false">%1$s/orders/%2$s/notifications</string>
+    <string name="channel_firebase_cancellation_notice" translatable="false">%1$s/orders/orderId/flows</string>
+    <string name="channel_firebase_image_storage" translatable="false">images/whims/%1$s</string>
+    <string name="channel_firebase_whims_pending_confirmation" translatable="false">order_whims_pending_%1$s/%2$s</string>
+    <string name="channel_firebase_open_substitutions" translatable="false">substitutes/%1$s/%2$s/ask</string>
+    <string name="channel_firebase_closed_substitutions" translatable="false">substitutes/%1$s/%2$s/answer</string>
+</resources>

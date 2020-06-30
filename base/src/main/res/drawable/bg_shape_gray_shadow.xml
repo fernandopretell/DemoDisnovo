@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Drop Shadow Stack -->
+    <item>
+        <shape>
+            <padding android:right="@dimen/spacing_xmicro" android:bottom="@dimen/spacing_xmicro" android:left="@dimen/spacing_xmicro" />
+            <stroke android:color="@color/gray_xxlight" android:width="@dimen/spacing_micro"  />
+            <corners android:radius="@dimen/spacing_radius_xbig" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding  android:right="@dimen/spacing_xmicro" android:bottom="@dimen/spacing_xmicro" android:left="@dimen/spacing_xmicro" />
+            <stroke android:color="@color/gray_xxlight" android:width="@dimen/spacing_micro" />
+            <corners android:radius="@dimen/spacing_radius_big" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding  android:right="@dimen/spacing_xmicro" android:bottom="@dimen/spacing_xmicro" android:left="@dimen/spacing_xmicro" />
+            <stroke android:color="@color/gray_xlight" android:width="@dimen/spacing_micro" />
+            <corners android:radius="@dimen/spacing_radius_xxstandard" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding  android:right="@dimen/spacing_xmicro" android:bottom="@dimen/spacing_xmicro" android:left="@dimen/spacing_xmicro" />
+            <stroke android:color="@color/gray_xlight" android:width="@dimen/spacing_micro" />
+            <corners android:radius="@dimen/spacing_radius_xxstandard" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding  android:right="@dimen/spacing_xmicro" android:bottom="@dimen/spacing_xmicro" android:left="@dimen/spacing_xmicro" />
+            <stroke android:color="@color/gray_xmedium" android:width="@dimen/spacing_micro" />
+            <corners android:radius="@dimen/spacing_radius_xstandard" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding  android:right="@dimen/spacing_xmicro" android:bottom="@dimen/spacing_xmicro" android:left="@dimen/spacing_xmicro" />
+            <stroke android:color="@color/gray_xmedium" android:width="@dimen/spacing_micro" />
+            <corners android:radius="@dimen/spacing_radius_standard" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding  android:right="@dimen/spacing_xmicro" android:bottom="@dimen/spacing_xmicro" android:left="@dimen/spacing_xmicro" />
+            <stroke android:color="@color/gray_medium" android:width="@dimen/spacing_micro" />
+            <corners android:radius="@dimen/spacing_radius_standard" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@color/white" />
+            <corners android:radius="@dimen/spacing_radius_standard" />
+        </shape>
+    </item>
+</layer-list>

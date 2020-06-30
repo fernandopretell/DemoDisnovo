@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SecondaryButtonPlain"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/spacing_xxxlarge"
+    android:paddingLeft="@dimen/spacing_xxxlarge"
+    android:paddingRight="@dimen/spacing_xxxlarge"
+    android:paddingStart="@dimen/spacing_xxxlarge"
+    android:text="@string/copy.chat_to" />
+

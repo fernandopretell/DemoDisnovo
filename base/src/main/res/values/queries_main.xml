@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="delete_basket" translatable="false">DROP TABLE basket</string>
+
+    <string name="create_basket" translatable="false">CREATE TABLE basket (
+         product_hash text PRIMARY KEY NOT NULL,
+         product_id text NOT NULL,
+         store_id text NOT NULL,
+         product text NOT NULL,
+         store_type text DEFAULT NULL)
+     </string>
+
+    <string name="create_contacts_pay_searches" translatable="false">CREATE TABLE IF NOT EXISTS PreviousContactsPaySearches (
+        phone text PRIMARY KEY,
+        name text,
+        pic text)
+    </string>
+
+    <string name="delete_contacts_pay_searches" translatable="false">DROP TABLE PreviousContactsPaySearches</string>
+
+    <string name="create_address" translatable="false">CREATE TABLE address (
+        id integer PRIMARY KEY NOT NULL,
+        address text NOT NULL,
+        description text ,
+        tag text ,
+        lng text NOT NULL,
+        lat text NOT NULL,
+        lastorder integer NOT NULL,
+        active integer)
+    </string>
+
+    <string name="create_coupons" translatable="false">
+        CREATE TABLE coupons (
+        id integer not null primary key autoincrement,
+        title varchar not null,
+        starts_on datetime not null,
+        ends_on datetime not null)
+    </string>
+
+    <string name="create_offers" translatable="false">
+        CREATE TABLE offers (
+        id integer not null primary key autoincrement,
+        coupon_id integer null,
+        type integer not null,
+        description varchar not null,
+        value varchar null,
+        ends_on datetime not null,
+        starts_on datetime not null)
+    </string>
+
+    <string name="create_offer_product" translatable="false">
+        CREATE TABLE offer_product (
+        offer_id integer not null,
+        product_id text not null,
+        product text not null)
+    </string>
+
+</resources>

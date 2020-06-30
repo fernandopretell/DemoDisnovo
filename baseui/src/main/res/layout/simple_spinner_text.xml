@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    tools:text="Test"
+    android:textSize="@dimen/font_xnormal"
+    android:paddingStart="@dimen/margin_view_start"
+    android:textColor="@color/grey_charcoil"
+    android:fontFamily="@font/tt_norms_medium"
+    android:background="@color/bg_gray_element"/>

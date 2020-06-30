@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget.view_more.height">48dp</dimen>
+    <dimen name="widget.view_more.text_size">16sp</dimen>
+
+    <dimen name="widget.view_more_button_margin_start">7dp</dimen>
+    <dimen name="widget.view_more_button_padding_vertical">3.5dp</dimen>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="base.rappi_share_link" translatable="false">https://play.google.com/store/apps/details?id=com.grability.rappi</string>
+    <string name="base.new_eta_transition_storekeeper_image" translatable="false">transition_storekeeper_image</string>
+    <string name="base.new_eta_transition_storekeeper_name" translatable="false">transition_storekeeper_name</string>
+    <string name="base.new_eta_transition_storekeeper_label" translatable="false">transition_storekeeper_label</string>
+    <string name="base.new_eta_topping_format" translatable="false">&#8226; %1$s</string>
+    <string name="base.rappi_prime_title" translatable="false">RappiPrime</string>
+    <string name="base.terms_and_conditions_min" translatable="false">min</string>
+    <string name="base.product_percentage" translatable="false">-%1$d %%</string>
+    <string name="base.bullet_sign" translatable="false">&#8226; %1$s</string>
+    <string name="base.masterpass" translatable="false">Masterpass</string>
+    <string name="base.rappicash" translatable="false">Rappicash</string>
+    <string name="copy.rappi_pay" translatable="false">RappiPay</string>
+    <string name="copy.rappi_pay_with" translatable="false">Pagá con Rappi</string>
+    <string name="base.item_eta" translatable="false">%d-%d min</string>
+    <string name="base.simple_eta" translatable="false">%d min</string>
+    <string name="base.bullet" translatable="false">&#8226;</string>
+    <string name="base.paypal" translatable="false">Paypal</string>
+    <string name="base.googlepay" translatable="false">Google pay</string>
+    <string name="base.edenred" translatable="false">Edenred</string>
+    <string name="base.pse" translatable="false">PSE</string>
+    <string name="rappi_app_name" translatable="false">Rappi</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="view"
+            type="com.limapps.base.dialogs.SimpleConfirmationDialog" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/radius_border_button">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/spacing_large"
+                android:paddingLeft="@dimen/spacing_xxlarge"
+                android:paddingRight="@dimen/spacing_xxlarge"
+                android:paddingTop="@dimen/spacing_huge">
+
+                <TextView
+                    android:id="@+id/textView_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@{ view.title }"
+                    android:textSize="@dimen/font_xlarge"
+                    tools:text="@string/address_list.remove_address"/>
+
+                <TextView
+                    android:id="@+id/textView_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView_title"
+                    android:layout_marginTop="@dimen/spacing_xxlarge"
+                    android:gravity="center"
+                    android:text="@{ view.description }"
+                    android:textColor="@color/text_color_secondary"
+                    android:textSize="@dimen/font_large"
+                    android:visibility="@{ view.hasDescription ? View.VISIBLE : View.GONE }"
+                    tools:text="@string/address_list.remove_address_confirmation"/>
+
+                <Button
+                    android:id="@+id/button_remove"
+                    style="@style/PrimaryButtonPlain"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_rappi_button_small"
+                    android:layout_below="@+id/textView_description"
+                    android:layout_marginTop="@dimen/spacing_huge"
+                    android:onClick="@{ () -> view.confirmDeletion() }"
+                    android:text="@{ view.primaryButtonText }"
+                    android:textSize="@dimen/font_large"
+                    tools:text="@string/copy.delete"/>
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_rappi_button_small"
+                    android:layout_below="@+id/button_remove"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="@{ () -> view.dismissDialog() }"
+                    android:text="@{ view.secondaryButtonText }"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_color_secondary"
+                    android:textSize="@dimen/font_large" />
+
+            </RelativeLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</layout>

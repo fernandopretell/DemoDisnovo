@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="baseui.ok" translatable="false">OK</string>
+    <string name="baseui.cancel">Cancelar</string>
+    <string name="content_description_yes" translatable="false">yes</string>
+    <string name="content_description_no" translatable="false">no</string>
+    <string name="content_description_stores_slider" translatable="false">stores_slider</string>
+    <string name="content_description_order_again" translatable="false">order_again</string>
+    <string name="content_description_store_image" translatable="false">store_image</string>
+    <string name="content_description_store_name" translatable="false">store_name</string>
+    <string name="content_description_products" translatable="false">products</string>
+    <string name="content_description_order" translatable="false">order</string>
+</resources>

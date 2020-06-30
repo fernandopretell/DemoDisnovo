@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/spacing_xlarge"
+    android:paddingRight="@dimen/spacing_xlarge"
+    tools:ignore="MissingPrefix">
+
+    <TextView
+        android:id="@+id/textView_description_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:text="@string/base.max_length_characters"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_xxlarge"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_understood"
+        style="@style/PrimaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_xlarge"
+        android:layout_marginTop="@dimen/spacing_huge"
+        android:text="@string/whim.understood" />
+
+</LinearLayout>

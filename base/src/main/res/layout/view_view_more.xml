@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/widget.view_more.height"
+    android:background='@color/white_translucent'
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_xmicro"
+        android:background="@color/gray_600"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textColor="#54c76b"
+        android:textSize="@dimen/widget.view_more.text_size"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_arrow"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line"
+        tools:text="@string/home.view_x_more" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView_arrow"
+        android:layout_width="@dimen/icon_size_small"
+        android:layout_height="@dimen/icon_size_small"
+        android:layout_marginStart="@dimen/widget.view_more_button_margin_start"
+        android:paddingTop="@dimen/widget.view_more_button_padding_vertical"
+        android:paddingBottom="@dimen/widget.view_more_button_padding_vertical"
+        app:layout_constraintBottom_toBottomOf="@id/textView_caption"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@id/textView_caption"
+        app:layout_constraintTop_toTopOf="@id/textView_caption"
+        app:srcCompat="@drawable/arrow_right_green_centered"
+        app:tint="#54c76b" />
+
+</merge>

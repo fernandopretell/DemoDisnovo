@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Spacing-->
+    <dimen name="spacing_empty">0dp</dimen>
+    <dimen name="spacing_xxmicro">0.5dp</dimen>
+    <dimen name="spacing_xmicro">1dp</dimen>
+    <dimen name="spacing_micro">2dp</dimen>
+    <dimen name="spacing_small">5dp</dimen>
+    <dimen name="spacing_xmedium">7dp</dimen>
+    <dimen name="spacing_xxmedium">8dp</dimen>
+    <dimen name="spacing_medium">10dp</dimen>
+    <dimen name="spacing_large">15dp</dimen>
+    <dimen name="spacing_xlarge">18dp</dimen>
+    <dimen name="spacing_xxlarge">22dp</dimen>
+    <dimen name="spacing_xxxlarge">26dp</dimen>
+    <dimen name="spacing_xxxxlarge">32dp</dimen>
+    <dimen name="spacing_huge">30dp</dimen>
+    <dimen name="spacing_xhuge">40dp</dimen>
+    <dimen name="spacing_xxhuge">50dp</dimen>
+    <dimen name="spacing_xxxhuge">60dp</dimen>
+    <dimen name="spacing_xxxxhuge">70dp</dimen>
+    <dimen name="spacing_xxxxxhuge">80dp</dimen>
+    <dimen name="spacing_toolbar">56dp</dimen>
+    <dimen name="spacing_double_toolbar">112dp</dimen>
+    <dimen name="spacing_xxxtoolbar">130dp</dimen>
+    <dimen name="spacing_coupon_tooltip">34dp</dimen>
+    <dimen name="spacing_radius_small">3dp</dimen>
+    <dimen name="spacing_radius_xsmall">4dp</dimen>
+    <dimen name="spacing_radius_xxsmall">5dp</dimen>
+    <dimen name="spacing_radius_medium">6dp</dimen>
+    <dimen name="spacing_radius_xmedium">7dp</dimen>
+    <dimen name="spacing_radius_xxmedium">8dp</dimen>
+    <dimen name="spacing_radius_standard">10dp</dimen>
+    <dimen name="spacing_radius_xstandard">11dp</dimen>
+    <dimen name="spacing_radius_xxstandard">12dp</dimen>
+    <dimen name="spacing_radius_big">13dp</dimen>
+    <dimen name="spacing_radius_xbig">14dp</dimen>
+    <dimen name="spacing_radius_xxbig">15dp</dimen>
+    <dimen name="spacing_radius_oval">40dp</dimen>
+
+    <!-- Negative Spacing-->
+    <dimen name="negative_spacing_xmicro">-1dp</dimen>
+    <dimen name="negative_spacing_micro">-2dp</dimen>
+    <dimen name="negative_spacing_small">-5dp</dimen>
+    <dimen name="negative_spacing_medium">-7dp</dimen>
+    <dimen name="negative_spacing_large">-15dp</dimen>
+    <dimen name="negative_spacing_xlarge">-18dp</dimen>
+    <dimen name="negative_spacing_xxlarge">-22dp</dimen>
+    <dimen name="negative_spacing_xxxlarge">-26dp</dimen>
+    <dimen name="negative_spacing_xxxxlarge">-50dp</dimen>
+
+    <!-- Text_size-->
+    <dimen name="font_xxhuge">60sp</dimen>
+    <dimen name="font_xhuge">50sp</dimen>
+    <dimen name="font_huge">40sp</dimen>
+    <dimen name="font_xxxxlarge">36sp</dimen>
+    <dimen name="font_xxxlarge">30sp</dimen>
+    <dimen name="font_large_medium">28sp</dimen>
+    <dimen name="font_xxlarge">26sp</dimen>
+    <dimen name="font_xlarge">22sp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_big">16sp</dimen>
+    <dimen name="font_xbig">20sp</dimen>
+    <dimen name="font_normal">14sp</dimen>
+    <dimen name="font_xnormal">16sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_micro">10sp</dimen>
+    <dimen name="font_xmicro">8sp</dimen>
+    <dimen name="font_xxmicro">6sp</dimen>
+
+    <dimen name="icon_size_huge">60dp</dimen>
+    <dimen name="icon_size_big">55dp</dimen>
+    <dimen name="icon_size_standard">30dp</dimen>
+    <dimen name="icon_size_medium">25dp</dimen>
+    <dimen name="icon_size_xmedium">26dp</dimen>
+    <dimen name="icon_size_small">20dp</dimen>
+    <dimen name="icon_size_xsmall">24dp</dimen>
+    <dimen name="icon_size_micro">10dp</dimen>
+    <dimen name="icon_size_xmicro">13dp</dimen>
+    <dimen name="icon_large">45dp</dimen>
+    <dimen name="icon_xlarge">50dp</dimen>
+    <dimen name="icon_xxlarge">66dp</dimen>
+
+    <dimen name="search_copy_margin_top">10dp</dimen>
+    <dimen name="login_by_phone_margin_top">24dp</dimen>
+    <dimen name="icon_back_margin">27dp</dimen>
+    <dimen name="font_basket_button_rappi">14sp</dimen>
+    <dimen name="image_w_result_seeker">200dp</dimen>
+    <dimen name="register_margin_top_dimen">15dp</dimen>
+    <dimen name="margin_view_start">16dp</dimen>
+    <dimen name="margin_view_end">16dp</dimen>
+    <dimen name="name_product_basket">16sp</dimen>
+    <dimen name="price_product_basket">17sp</dimen>
+    <dimen name="size_image_avatar">50dp</dimen>
+    <dimen name="title_headers_blue">17sp</dimen>
+    <dimen name="margin_bottom_buttons_registry">0dp</dimen>
+    <dimen name="size_button_rappi">14sp</dimen>
+    <dimen name="round_big">100dp</dimen>
+
+    <dimen name="width_store_temp_closed_image_view">100dp</dimen>
+    <dimen name="height_store_temp_closed_image_view">100dp</dimen>
+    <dimen name="height_rappi_button_tiny">43dp</dimen>
+    <dimen name="height_rappi_button_xtiny">48dp</dimen>
+    <dimen name="height_rappi_button_normal">55dp</dimen>
+    <dimen name="height_rappi_button_two_lines">58dp</dimen>
+    <dimen name="height_rappi_button_tall">60dp</dimen>
+    <dimen name="height_rappi_button_extra_tall">90dp</dimen>
+    <dimen name="margin_top_compass">35dp</dimen>
+
+    <dimen name="text_size_name_list_detail">20sp</dimen>
+
+    <dimen name="height_rappi_field">58dp</dimen>
+    <dimen name="height_rappi_field_text_view">56dp</dimen>
+    <dimen name="height_rappi_medium">40dp</dimen>
+
+    <dimen name="register_delivery_option_subtitle_text_size">17sp</dimen>
+
+    <dimen name="rating_bar_star_height">40dp</dimen>
+
+    //dialog_account_verfication
+
+    <dimen name="texview_retry_width">3dp</dimen>
+    <dimen name="texview_retry_height">15dp</dimen>
+
+    <dimen name="profile_pic_dimen">70dp</dimen>
+    <dimen name="profile_pic_big_dimen">100dp</dimen>
+    <dimen name="new_profile_pic_big_dimen">110dp</dimen>
+    <dimen name="new_profile_camera">30dp</dimen>
+    <dimen name="new_profile_space">80dp</dimen>
+    <dimen name="new_profile_button_radius">25dp</dimen>
+    <dimen name="new_profile_button_inset">0dp</dimen>
+    <dimen name="new_profile_sex_selection_height">40dp</dimen>
+    <dimen name="new_profile_background_radius">28dp</dimen>
+
+
+    <dimen name="dimen_small_buttons">38dp</dimen>
+    <dimen name="height_rappi_button_small">50dp</dimen>
+    <dimen name="height_rappi_button_standard">52dp</dimen>
+    <dimen name="height_rappi_button_micro">40dp</dimen>
+    <dimen name="height_rappi_button_xmicro">30dp</dimen>
+    <dimen name="rappi_alert_view_margin_sides">30dp</dimen>
+    <dimen name="rappi_age_alert_view_margin_top">60dp</dimen>
+
+
+    <dimen name="fields_vertical_spacing">18dp</dimen>
+    <dimen name="shadow_width">20dp</dimen>
+
+
+    <dimen name="size_width_image_product">64dp</dimen>
+    <dimen name="size_image_usa_product">72dp</dimen>
+    <dimen name="size_width_button_item_basket">25dp</dimen>
+
+    <dimen name="size_width_button_item_cash">29dp</dimen>
+    <dimen name="size_height_button_item_cash">30dp</dimen>
+    <dimen name="size_height_button_next">48dp</dimen>
+
+    <dimen name="intro_message_box_height">100dp</dimen>
+    <dimen name="intro_bag_height">70dp</dimen>
+
+    <dimen name="arrow_between_fields">10dp</dimen>
+    <dimen name="margin_bottom_finish_registry">20dp</dimen>
+    <dimen name="margin_fields_registry">20dp</dimen>
+    <dimen name="margin_top_between_headers">10dp</dimen>
+    <dimen name="margins_icon_email_registry">23dp</dimen>
+    <dimen name="margin_buttons_back">10dp</dimen>
+    <dimen name="margin_top_grid_view">80dp</dimen>
+    <dimen name="narrow_items_grid">10dp</dimen>
+    <dimen name="margin_start_view_basket">9dp</dimen>
+    <dimen name="whim_send_order_button">16sp</dimen>
+    <dimen name="font_size_copy_header_update_app">22sp</dimen>
+    <dimen name="font_size_copy_update_app">17sp</dimen>
+    <dimen name="height_rappi_button_big">70dp</dimen>
+    <dimen name="margin_top_items_update_app_view">10dp</dimen>
+    <dimen name="margin_top_button_update_app_view">20dp</dimen>
+    <dimen name="narrow_left_right_white_frame_update_app">25dp</dimen>
+    <dimen name="narrow_top_bottom_white_frame_update_app">50dp</dimen>
+    <dimen name="margin_button_update_app">20dp</dimen>
+    <dimen name="margin_bottom_button_update_app">20dp</dimen>
+    <dimen name="text_size_button_update_app">20sp</dimen>
+    <dimen name="size_pin">30dp</dimen>
+
+    <dimen name="profile_see_my_cards_margin">40dp</dimen>
+    <dimen name="narrow_items_grid_sixteen">5dp</dimen>
+
+    <!-- replacement criteria -->
+    <dimen name="replacement_radio_button_width">280dp</dimen>
+    <dimen name="replacement_radio_button_margin_top">20dp</dimen>
+
+    <dimen name="margin_bottom_resume_button">30dp</dimen>
+
+    <!-- coverage form -->
+    <dimen name="button_close_width">25dp</dimen>
+    <dimen name="button_close_height">25dp</dimen>
+
+    <dimen name="size_image_chat">200dp</dimen>
+    <dimen name="size_icon_error_sending_image">40dp</dimen>
+    <dimen name="size_loader_sending_image">50dp</dimen>
+
+    <dimen name="size_progress_bar">50dp</dimen>
+    <dimen name="margin_top_layer_back_button">10dp</dimen>
+
+    <!-- change password -->
+    <dimen name="change_password_back_button_margin">12dp</dimen>
+    <dimen name="change_password_container_padding">25dp</dimen>
+    <dimen name="change_password_subtitle_margin">28dp</dimen>
+    <dimen name="change_password_subtitle_text_size">18sp</dimen>
+
+    <!--Gender-->
+    <dimen name="margin_subtitle_choose_gender">20dp</dimen>
+
+    <!-- Intro Fragment -->
+    <dimen name="text_size_buttons_intro">18sp</dimen>
+    <dimen name="padding_separate_empty_now_top">30dp</dimen>
+
+    <dimen name="margin_bottom_rappi_button">2dp</dimen>
+    <dimen name="margin_sides_rappi_button">2dp</dimen>
+    <dimen name="margin_top_rappi_button">4dp</dimen>
+    <dimen name="margin_sides_text_container_rappi_button">5dp</dimen>
+
+
+    <!--Lists-->
+
+    <dimen name="size_profile_pic_medium">40dp</dimen>
+    <dimen name="size_profile_pic_big">65dp</dimen>
+    <dimen name="size_profile_pic_big_new">84dp</dimen>
+
+    <!--product detail-->
+    <dimen name="height_quantity_layout">50dp</dimen>
+    <dimen name="height_add_product_detail_button">60dp</dimen>
+    <dimen name="height.widht.close_icon">24dp</dimen>
+    <dimen name="width_topping_add_button">170dp</dimen>
+    <dimen name="size_icon_favorite">24dp</dimen>
+
+    <!--Home View-->
+    <dimen name="height_restaurant_item">200dp</dimen>
+    <dimen name="tag_radius">100dp</dimen>
+    <dimen name="width_tag_item">100dp</dimen>
+    <dimen name="tag_size">34dp</dimen>
+    <dimen name="item_home_clock_min_width">80dp</dimen>
+
+    <dimen name="size_search_image">40dp</dimen>
+
+
+    <dimen name="width_button_schedule_order">130dp</dimen>
+    <dimen name="width_payment_method_icon">25dp</dimen>
+
+    <dimen name="height_image_category">130dp</dimen>
+    <dimen name="size_logo_restaurant">46dp</dimen>
+
+    <dimen name="size_image_store_type">90dp</dimen>
+    <dimen name="width_store_type_item">90dp</dimen>
+    <dimen name="height_store_type_item">150dp</dimen>
+
+    <dimen name="market_home.category_icon_height">67dp</dimen>
+    <dimen name="market_home.category_icon_width">68dp</dimen>
+
+    <dimen name="size_icon_arrow">48dp</dimen>
+
+    <dimen name="discount_arrow_size">2dp</dimen>
+
+    <!--Tutorial Intro-->
+    <dimen name="tutorial.product_image_size">150dp</dimen>
+    <dimen name="tutorial.back_title_margin">-100dp</dimen>
+    <dimen name="tutorial.back_title_font_size">175sp</dimen>
+
+    <dimen name="height_card_country">85dp</dimen>
+    <dimen name="width_cvv_input">120dp</dimen>
+    <dimen name="width_selecter_gold">80dp</dimen>
+    <dimen name="height_button_gold">45dp</dimen>
+
+
+    <dimen name="height_btns_basket">60dp</dimen>
+    <dimen name="width_name_product">120dp</dimen>
+
+    <dimen name="content_related_product_height">150dp</dimen>
+
+    <dimen name="size_create_list_title_basket">20sp</dimen>
+
+    <dimen name="text_size_title_terms">20sp</dimen>
+
+    <dimen name="survey_reason_height">90dp</dimen>
+
+    <dimen name="padding_indicator_product_detail">10dp</dimen>
+
+    <dimen name="tutorial_margin_side_tip">30dp</dimen>
+
+    <!-- price tag -->
+    <dimen name="price_tag_width">100dp</dimen>
+    <dimen name="label_tag_text_size">9sp</dimen>
+    <dimen name="price_tag_normal_padding_top">2dp</dimen>
+    <dimen name="price_tag_normal_padding_bottom">2dp</dimen>
+    <dimen name="price_tag_offer_right">6dp</dimen>
+    <dimen name="price_tag_offer_left">10dp</dimen>
+    <dimen name="price_tag_offer_bottom">5dp</dimen>
+
+    <dimen name="price_tag_fruit_title_text_size">9sp</dimen>
+    <dimen name="price_tag_fruit_price_text_size">11sp</dimen>
+
+    <dimen name="intro_skip_button_padding">10dp</dimen>
+
+    <dimen name="search_box_radius">3dp</dimen>
+    <dimen name="global_search_box_radius">20dp</dimen>
+
+    <!--Register-->
+    <dimen name="margin_right_warning">10dp</dimen>
+    <dimen name="padding_side_rappifield">25dp</dimen>
+
+    <dimen name="margin_negative_big">-20dp</dimen>
+
+    <dimen name="margin_address_description">10dp</dimen>
+
+    <dimen name="margin_left_rappi_field">20dp</dimen>
+
+    <!-- Navigation Drawer -->
+    <dimen name="navigation_view_width">320dp</dimen>
+
+    <dimen name="padding_rappi_field_search">15dp</dimen>
+    <dimen name="border_progress_rappitendero">2dp</dimen>
+
+    <dimen name="height_view_tip">50dp</dimen>
+
+    <dimen name="tutorial_tooltip_arrow_size">12dp</dimen>
+
+    <!--GeneralMenu-->
+    <dimen name="size_badge">20dp</dimen>
+
+    <dimen name="divider_height">1dp</dimen>
+
+    <!-- Intro Fragment -->
+    <dimen name="width_height_flag_description">20dp</dimen>
+    <dimen name="padding_field_flag_description">5dp</dimen>
+    <dimen name="height_image_flag">40dp</dimen>
+
+    <dimen name="margin_table_vertical">24dp</dimen>
+    <dimen name="table_text_size_top">18sp</dimen>
+    <dimen name="table_text_size_bottom">13sp</dimen>
+
+
+    <dimen name="no_elevation">0dp</dimen>
+    <dimen name="button_elevation">2dp</dimen>
+    <dimen name="float_action_button_elevation">6dp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+    <dimen name="store_elevation">3dp</dimen>
+    <dimen name="card_elevation_medium">7dp</dimen>
+    <dimen name="card_elevation_xmedium">8dp</dimen>
+    <dimen name="card_elevation_plus">10dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+
+    <dimen name="size_previous_order_container">90dp</dimen>
+    <dimen name="size_previous_order_image">56dp</dimen>
+    <dimen name="negative_margin_previous_order_image">-45dp</dimen>
+    <dimen name="width_previous_order_item">292dp</dimen>
+    <dimen name="height_previous_order_item">110dp</dimen>
+
+    <dimen name="height_triangle_tooltip">10dp</dimen>
+    <dimen name="width_triangle_tooltip">8dp</dimen>
+
+    <dimen name="width_border_button">2dp</dimen>
+    <dimen name="radius_border_button">8dp</dimen>
+    <dimen name="radius_border_cardView">4dp</dimen>
+    <dimen name="radius_border_button_small">6dp</dimen>
+    <dimen name="radius_border_button_medium">10dp</dimen>
+    <dimen name="radius_border_button_large">17dp</dimen>
+    <dimen name="radius_border_button_huge">50dp</dimen>
+
+    <dimen name="height_bottom_sheet_title">70dp</dimen>
+    <dimen name="height_margin_top_toolbar">160dp</dimen>
+
+    <dimen name="height_product_item_controls">50dp</dimen>
+    <dimen name="width_panel_dialog_categories">300dp</dimen>
+    <dimen name="height_product_topping_container">200dp</dimen>
+    <dimen name="height_product_topping_image">195dp</dimen>
+
+    <dimen name="height_lane_category_item">70dp</dimen>
+
+    <dimen name="size_coupon_circle_big">200dp</dimen>
+    <dimen name="size_coupon_circle_medium">150dp</dimen>
+    <dimen name="size_coupon_circle_small">100dp</dimen>
+
+    <dimen name="negative_coupon_circle_medium">-110dp</dimen>
+    <dimen name="negative_coupon_circle_small">-100dp</dimen>
+
+    <dimen name="spacing_tooltip_home">40dp</dimen>
+
+    <dimen name="width_tooltip_address">180dp</dimen>
+
+    <!-- Order in progress -->
+    <dimen name="fab_icon_size">24dp</dimen>
+    <dimen name="size_product_resume_image">70dp</dimen>
+    <dimen name="min_width_chat_message">120dp</dimen>
+    <dimen name="min_height_card_order_in_progress">180dp</dimen>
+    <dimen name="height_header_current_orders">160dp</dimen>
+
+    <!--Card Message-->
+    <dimen name="card_message.arrow_size">32dp</dimen>
+
+    <!--Tutorial-->
+    <dimen name="tutorial.coupon_width">200dp</dimen>
+    <dimen name="tutorial.coupon_height">100dp</dimen>
+    <dimen name="min_height_promo_image">100dp</dimen>
+    <dimen name="height_promos_waves">70dp</dimen>
+    <dimen name="margin_bottom_promos_title">85dp</dimen>
+
+    <!--Share Referral-->
+    <dimen name="share_referral.size_share_button">80dp</dimen>
+
+    <dimen name="order_loader_width">150dp</dimen>
+    <dimen name="order_loader_height">250dp</dimen>
+
+    <dimen name="height_main_button_home">130dp</dimen>
+    <dimen name="height_featured_button_home">160dp</dimen>
+
+    <!--Promotions-->
+    <dimen name="promos_fab_height">45dp</dimen>
+    <dimen name="promos_fab_width">45dp</dimen>
+
+    <!--Addresses-->
+    <dimen name="height_items_address">65dp</dimen>
+
+    <dimen name="size_icon_menu">20dp</dimen>
+    <dimen name="font_step">2sp</dimen>
+
+    <dimen name="size_badge_inbox_counter">24dp</dimen>
+    <dimen name="height_inbox_image">112dp</dimen>
+
+    <dimen name="height_button_previous_whims">23dp</dimen>
+
+    <dimen name="size_whim_picture">60dp</dimen>
+    <dimen name="size_whim_picture_delete">20dp</dimen>
+    <dimen name="height_whim_options">50dp</dimen>
+    <dimen name="height_whim_charge_loader">10dp</dimen>
+
+    <!-- product detail -->
+    <dimen name="product.detail.radio.height">30dp</dimen>
+    <dimen name="product.detail.radio.width">30dp</dimen>
+    <dimen name="product.detail.radio.radius">5dp</dimen>
+    <dimen name="product.detail.radio.corner">7dp</dimen>
+    <dimen name="product.detail.image.height">120dp</dimen>
+
+    <dimen name="market_home.width">112dp</dimen>
+    <dimen name="market_home.height">128dp</dimen>
+
+    <!-- Banners -->
+    <dimen name="banner_home_height">125dp</dimen>
+    <dimen name="banner_detail_height">150dp</dimen>
+
+    <dimen name="size_restaurant_product_small">45dp</dimen>
+    <dimen name="size_restaurant_product_medium">110dp</dimen>
+
+    <dimen name="margin_top_terms_and_conditions">20dp</dimen>
+    <dimen name="margin_top_terms_and_conditions_small">10dp</dimen>
+
+    <dimen name="size_triangle">5dp</dimen>
+
+    <dimen name="width_spinner_country">40dp</dimen>
+    <dimen name="width_dropdown_flag">200dp</dimen>
+    <dimen name="market_dialog.item_height">70dp</dimen>
+    <dimen name="height_product_basket">100dp</dimen>
+    <dimen name="size_progress_bar_product">30dp</dimen>
+    <dimen name="size_badge_display_quantity">31dp</dimen>
+    <dimen name="width_rappi_credit_amount">60dp</dimen>
+    <dimen name="height_basket_view">100dp</dimen>
+
+    <dimen name="height_bottom_basket">40dp</dimen>
+
+    <dimen name="tutorial_home_size_swipe_screen">90dp</dimen>
+    <dimen name="chat.audio_item_width">240dp</dimen>
+    <dimen name="height_item_autocomplete">50dp</dimen>
+    <dimen name="promotion.icon_size">42dp</dimen>
+    <dimen name="favors.height_address">50dp</dimen>
+    <dimen name="favors.height_text_instructions">120dp</dimen>
+    <dimen name="favors.size_delete_icon">48dp</dimen>
+    <dimen name="favors.height_map">400dp</dimen>
+    <dimen name="width_amount_basket">120dp</dimen>
+    <dimen name="height_amount_basket">60dp</dimen>
+    <dimen name="width_amount_usa">88dp</dimen>
+    <dimen name="height_amount_usa">32dp</dimen>
+
+    <!--Market (on base)-->
+    <dimen name="home.instacart_button_width">100dp</dimen>
+    <dimen name="home.instacart_button_height">32dp</dimen>
+    <dimen name="home.instacart_image_width">120dp</dimen>
+    <dimen name="home.instacart_image_height">98dp</dimen>
+    <dimen name="home.instacart_view_height">262dp</dimen>
+    <dimen name="home.instacart_image_size">120dp</dimen>
+    <dimen name="home.instacart_discount_size">35dp</dimen>
+    <dimen name="home.instacart_discount_height">18dp</dimen>
+    <dimen name="home.instacart_discount_width">35dp</dimen>
+
+    <!-- New eta -->
+    <dimen name="new_eta.picture_size">48dp</dimen>
+    <dimen name="new_eta.button_size">32dp</dimen>
+    <dimen name="new_eta.storekeeper_view_size">130dp</dimen>
+    <dimen name="new_eta.states_padding_bottom">150dp</dimen>
+    <dimen name="new_address.icon_size">48dp</dimen>
+    <dimen name="new_eta.map_view_height">220dp</dimen>
+    <dimen name="new_eta.bill_preview_size">50dp</dimen>
+    <dimen name="height_collapsing_toolbar">100dp</dimen>
+
+    <!-- Shared -->
+    <dimen name="home.height_categories_toolbar">180dp</dimen>
+    <dimen name="home.height_orders_toolbar">128dp</dimen>
+    <dimen name="favors.courier_icon_size">34dp</dimen>
+
+    <!-- Terms and Condition -->
+    <dimen name="text_size_minutes_promise_terms">100sp</dimen>
+    <dimen name="height_minutes_promise_terms">100dp</dimen>
+    <dimen name="height_image_promise_terms">180dp</dimen>
+
+    <dimen name="help_center.image_attachment_height">100dp</dimen>
+
+    <!-- Mini Item Carousel View -->
+    <dimen name="mini_item_carousel_view.image_view_size">80dp</dimen>
+    <dimen name="mini_item_carousel_view.min_height">160dp</dimen>
+    <dimen name="mini_item_carousel_view.min_width">96dp</dimen>
+    <dimen name="mini_item_carousel_view.text_price_size">14sp</dimen>
+    <dimen name="mini_item_carousel_view.button_height">32dp</dimen>
+    <dimen name="mini_item_carousel_view.button_width">80dp</dimen>
+
+    <!-- Buttons -->
+    <dimen name="button_inset_horizontal">4dp</dimen>
+    <dimen name="button_inset_vertical">6dp</dimen>
+    <dimen name="button_padding_vertical">4dp</dimen>
+    <dimen name="button_padding_horizontal">8dp</dimen>
+    <dimen name="button_corner">2dp</dimen>
+    <dimen name="button_corner_medium">4dp</dimen>
+    <dimen name="width_logo_home_pay">100dp</dimen>
+    <dimen name="button_corner_xxxlarge">40dp</dimen>
+    <!-- Search -->
+    <dimen name="restaurant_search_item_height">80dp</dimen>
+
+    <dimen name="card_show_more.corner">20dp</dimen>
+
+    <dimen name="previous_order_button_height">39dp</dimen>
+
+    <!--Tooltip-->
+    <dimen name="tooltip_default_corner_radius">6dip</dimen>
+    <dimen name="tooltip_default_stroke_weight">0dip</dimen>
+    <dimen name="tooltip_default_elevation">4dp</dimen>
+
+    <!-- Checkout -->
+    <dimen name="width_tip">40dp</dimen>
+
+    <!-- Home Widgets -->
+    <dimen name="stores_elevation">0dp</dimen>
+    <dimen name="corner_stores">12dp</dimen>
+    <dimen name="home_widget_generic_vertical_margin">12dp</dimen>
+    <dimen name="home_widget_generic_vertical_shadow_offset">8dp</dimen>
+
+    <!--History orders-->
+    <dimen name="history_orders_height_size">293dp</dimen>
+
+    <!--Support Flows-->
+    <dimen name="support_flow_margin_size">400dp</dimen>
+
+    <!-- HC-->
+    <dimen name="image_view_size">32dp</dimen>
+    <dimen name="padding_image_view">3dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+
+    <dimen name="new_address_margin_top">13dp</dimen>
+    <dimen name="new_address_margin_start">13dp</dimen>
+    <dimen name="new_address_item_margin_start">11dp</dimen>
+    <dimen name="new_address_item_margin_end">11dp</dimen>
+    <dimen name="new_address_separator_height">8dp</dimen>
+    <dimen name="new_address_margin_top_title">34dp</dimen>
+
+    <!-- Rappi v6 dimens -->
+
+    <dimen name="font_size_header_1">32sp</dimen>
+    <dimen name="font_size_header_2">24sp</dimen>
+    <dimen name="font_size_body">16sp</dimen>
+    <dimen name="font_size_caption_1">14sp</dimen>
+    <dimen name="font_size_caption_2">12sp</dimen>
+    <dimen name="font_size_label">10sp</dimen>
+    <dimen name="font_size_sub_head">10sp</dimen>
+
+</resources>

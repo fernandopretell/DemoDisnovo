@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.limapps.baseui.views.loaders.LoaderTextView
+        android:id="@+id/textView_address_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_toLeftOf="@+id/textView_distance"
+        android:layout_toStartOf="@+id/textView_distance"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:minLines="1"
+        tools:text="Cigarrería Calle 100" />
+
+    <com.limapps.baseui.views.loaders.LoaderTextView
+        android:id="@+id/textView_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/spacing_medium"
+        android:layout_marginStart="@dimen/spacing_medium"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:gravity="center_vertical|end|right"
+        android:minWidth="@dimen/spacing_huge"
+        android:padding="@dimen/spacing_micro"
+        android:textColor="@color/text_color_secondary"
+        android:textSize="@dimen/font_small"
+        tools:text="0.2 km" />
+
+    <com.limapps.baseui.views.loaders.LoaderTextView
+        android:id="@+id/textView_address_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_address_first"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_micro"
+        android:layout_toLeftOf="@id/textView_distance"
+        android:layout_toStartOf="@id/textView_distance"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:minLines="1"
+        android:textColor="@color/text_color_secondary"
+        android:textSize="@dimen/font_small"
+        tools:text="Calle 97 #15-16" />
+
+</merge>
